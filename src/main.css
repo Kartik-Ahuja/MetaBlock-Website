@@ -1,5 +1,11 @@
 /* Slider */
 
+body{
+  color: black !important;
+  /* background-color: #f5f5f5 !important; */
+  
+}
+
 li {
   cursor: pointer !important;
 }
@@ -2751,8 +2757,8 @@ li {
 
 body {
   font-family: "Readex Pro", sans-serif;
-  background: linear-gradient(0deg, #060606, #060606), #FFFFFF;
-  color: #FFFFFF;
+  /* background: #F5F5F5 !important; */
+
 }
 
 section {
@@ -32407,7 +32413,7 @@ input[type=submit].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: #6c757d
+  color: #fff !important
 }
 
 .pagination {

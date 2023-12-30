@@ -3,6 +3,7 @@ import React from 'react'
 import Card from './MainPage/Card'
 import RelatedPortfolioSlider from './MainPage/RelatedPortfolioSlider'
 import AutoPlay from './MainPage/ReactSlick'
+import GenerativeAl from './MainPage/GenerativeAl'
 
 
 const SimilarFile = () => {
@@ -1502,6 +1503,9 @@ const SimilarFile = () => {
         </div>
       </section>
 
+      <section>
+       <GenerativeAl/>
+      </section>
       <section>
         <AutoPlay />
       </section>

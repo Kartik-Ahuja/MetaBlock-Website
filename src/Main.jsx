@@ -14,7 +14,7 @@ import AboutUsWhoWeAre from "./Component/MainPage/AboutUsWhoWeAre";
 const Main = () => {
 
   return (
-    <div>
+    <div style={{background:'black'}}>
       <div className="Main-section MnuPaddTop">
         <section className="BnnrSecMain" id="homebanner">
           <div className="container-fluid pl-0 pr-0">
