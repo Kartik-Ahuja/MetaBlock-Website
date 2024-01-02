@@ -1,21 +1,36 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef  } from 'react';
 
 const ContactForm = () => {
   const [showContactForm, setShowContactForm] = useState(false);
+  const contactFormRef = useRef(null);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setShowContactForm(true);
+      setShowContactForm(false);
 
       // This is where you set the aria-label without jQuery
       document.querySelectorAll('.btn-light').forEach(element => {
         element.setAttribute('aria-label', 'Contact Details');
       });
-    }, 2000);
+    });
 
     // Clear the timeout to avoid memory leaks
     return () => clearTimeout(timeoutId);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (contactFormRef.current && !contactFormRef.current.contains(event.target)) {
+        setShowContactForm(false);
+      }
+    };
+
+    document.body.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.body.removeEventListener('click', handleClickOutside);
+    };
+  }, [contactFormRef]);
 
   const toggleContactForm = () => {
     setShowContactForm(prevState => !prevState);
@@ -24,7 +39,7 @@ const ContactForm = () => {
   
   return (
     
-    <li className="HddrBtns co web_menu_btn_sec">
+    <li className="HddrBtns co web_menu_btn_sec" ref={contactFormRef}>
     <button
       className="btn menu_btn button_christ"
       id="proposal_btn"
@@ -42,7 +57,7 @@ const ContactForm = () => {
 
       <article className="contact_form_mainsec" id="contact_form_main" style={{ display: showContactForm ? "block" : "none" }}>
         <div className="topNewContact">
-          <p className="sub_title">Let's quickly bond.</p>
+          <p className="" >Let's quickly bond.</p>
         </div>
         <div className="contact_form_sec">
           <form className="fitoutform" id="side_contact_form" method="post" noValidate="novalidate" >

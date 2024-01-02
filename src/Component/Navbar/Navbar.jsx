@@ -5,7 +5,7 @@ import YourComponent from "./Nav-button";
 import ContactForm from "./Nav-button";
 
 const Navbar = () => {
-  //   const navigate = useNavigate();
+    const navigate = useNavigate();
 
   const WebData = [
     { name: "Static Website" },
@@ -139,11 +139,12 @@ const Navbar = () => {
   return (
     <div>
       <header className="HddrBg">
-        <nav style={{ display: "flex" }} className="navbar navbar-expand-lg">
+        <nav style={{ display: "flex",cursor:"pointer" }} className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <div className="logo_header">
-              <a href="https://www.osiztechnologies.com/" className>
+              <a  className>
                 <img
+                   onClick={()=> navigate('/')}
                   src="https://www.osiztechnologies.com/asset/home-page-new/images/osiz-white-logo-gif.gif"
                   className="img-fluid mbl_res_logo"
                   alt="osiz"
@@ -1540,8 +1541,7 @@ const Navbar = () => {
                                     <div>
                                       <li>
                                         <a
-                                          href="https://www.osiztechnologies.com/about-us"
-                                          target="_blank"
+                                            onClick={()=> navigate('/Aboutus')}
                                         >
                                           About Us
                                         </a>
@@ -1549,8 +1549,8 @@ const Navbar = () => {
 
                                       <li>
                                         <a
-                                          href="https://www.osiztechnologies.com/life-at-osiz"
-                                          target="_blank"
+                                      onClick={()=> navigate('/Announcement')}
+
                                         >
                                           Announcement{" "}
                                         </a>
@@ -1565,8 +1565,8 @@ const Navbar = () => {
                                       </li>
                                       <li>
                                         <a
-                                          href="https://www.osiztechnologies.com/celebrations"
-                                          target="_blank"
+                                          onClick={()=> navigate('/Celebrations')}
+
                                         >
                                           Celeberations
                                         </a>
@@ -1677,7 +1677,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </li>
-                {/* -------------------------- Insights ------------------------------------- */}
+                {/* -------------------------- Insights res ------------------------------------- */}
 
                 <li className="nav-item dropdown menu_res">
                   <a
@@ -1765,7 +1765,7 @@ const Navbar = () => {
                   </a>
                 </li>
 
-                {/* ---------------Blogs-------------------- */}
+                {/* ----------------------------------- */}
 
                 <li className="nav-item dropdown menu_res">
                   <a
@@ -1953,7 +1953,7 @@ const Navbar = () => {
 
                 {/* ------------button talk to experts----------- */}
 
-                <li style={{ marginLeft: "150px" }}>{<ContactForm />}</li>
+                <li style={{ marginLeft: "150px" }}>{<ContactForm/>}</li>
                 {/* <div className="HddrBtns banner_btn_sec">
                   <button
                     data-toggle="modal"
