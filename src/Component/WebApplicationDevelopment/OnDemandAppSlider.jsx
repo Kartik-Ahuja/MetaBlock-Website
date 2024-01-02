@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './OnDemandAppSlider.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faHeart, faShare } from '@fortawesome/free-solid-svg-icons';
+import './CardSlider.scss'
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faHeart, faShare } from '@fortawesome/free-solid-svg-icons';
 
 export default class OnDemandAppSlider extends Component {
 
 
     render() {
         const settings = {
-            //    dots: true,
+            // dots: true,
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 1,
@@ -29,98 +31,89 @@ export default class OnDemandAppSlider extends Component {
         }
 
         return (
-            <div className="RelatedPortfolioSlider-main-div-1">
+            <div className="RelatedPortfolioSlider-main-div-2">
                 <h2 className="ondemand-head">On-Demand App Development Company In India</h2>
-                <div className="RelatedPortfolioSlider-div-1">
+                <div className="RelatedPortfolioSlider-div-2">
                     <Slider {...settings}>
                         <div>
-
-                            <figure className="card card--3" >
-                                <figcaption>
-
-                                    <span className="info">
-                                        <h3>The Desert</h3>
-                                        <span>by Keith Hardy</span>
-                                    </span>
-                                    <span className="links">
-                                        <a > <FontAwesomeIcon icon={faHeart} /></a>
-                                        <a target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                                        <a target="_blank"><FontAwesomeIcon icon={faShare} /></a>
-                                    </span>
-                                </figcaption>
-                            </figure>
+                            <div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+                                <div className="ondemand__app__box ">
+                                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+                                    <div className="title__div">
+                                        <p> Tinder Clone App</p>
+                                    </div>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a href="#!">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
                         </div>
 
                         <div>
-
-                            <figure className="card card--3" >
-                                <figcaption>
-
-                                    <span className="info">
-                                        <h3>The Desert</h3>
-                                        <span>by Keith Hardy</span>
-                                    </span>
-                                    <span className="links">
-                                        <a > <FontAwesomeIcon icon={faHeart} /></a>
-                                        <a target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                                        <a target="_blank"><FontAwesomeIcon icon={faShare} /></a>
-                                    </span>
-                                </figcaption>
-                            </figure>
+                            <div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+                                <div className="ondemand__app__box ">
+                                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+                                    <div className="title__div">
+                                        <p> Tinder Clone App</p>
+                                    </div>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a >View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
                         </div>
 
                         <div>
+                            <div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+                                <div className="ondemand__app__box ">
+                                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+                                    <div className="title__div">
+                                        <p> Tinder Clone App</p>
+                                    </div>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a href="#!">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div>
 
-                            <figure className="card card--3" >
-                                <figcaption>
 
-                                    <span className="info">
-                                        <h3>The Desert</h3>
-                                        <span>by Keith Hardy</span>
-                                    </span>
-                                    <span className="links">
-                                        <a > <FontAwesomeIcon icon={faHeart} /></a>
-                                        <a target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                                        <a target="_blank"><FontAwesomeIcon icon={faShare} /></a>
-                                    </span>
-                                </figcaption>
-                            </figure>
+                        <div>
+                            <div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+                                <div className="ondemand__app__box ">
+                                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+                                    <div className="title__div">
+                                        <p> Tinder Clone App</p>
+                                    </div>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a href="#!">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
                         </div>
 
                         <div>
-
-                            <figure className="card card--3" >
-                                <figcaption>
-
-                                    <span className="info">
-                                        <h3>The Desert</h3>
-                                        <span>by Keith Hardy</span>
-                                    </span>
-                                    <span className="links">
-                                        <a > <FontAwesomeIcon icon={faHeart} /></a>
-                                        <a target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                                        <a target="_blank"><FontAwesomeIcon icon={faShare} /></a>
-                                    </span>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div>
-
-                            <figure className="card card--3" >
-                                <figcaption>
-
-                                    <span className="info">
-                                        <h3>The Desert</h3>
-                                        <span>by Keith Hardy</span>
-                                    </span>
-                                    <span className="links">
-                                        <a > <FontAwesomeIcon icon={faHeart} /></a>
-                                        <a target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                                        <a target="_blank"><FontAwesomeIcon icon={faShare} /></a>
-                                    </span>
-                                </figcaption>
-                            </figure>
+                            <div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+                                <div className="ondemand__app__box ">
+                                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+                                    <div className="title__div">
+                                        <p> Tinder Clone App</p>
+                                    </div>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a href="#!">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
                         </div>
 
                     </Slider>
@@ -131,3 +124,56 @@ export default class OnDemandAppSlider extends Component {
     }
 }
 
+{/* <div>
+<div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+<div className="ondemand__app__box ">
+    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+    <div className="title__div">
+        <p> Tinder Clone App</p>
+    </div>
+    <div className="overlay">
+        <div className="overlay-content">
+            <a href="#!">View Project</a>
+        </div>
+    </div>
+</div>
+</div></div>
+</div> */}
+
+
+{/* <div>
+<div className="owl-item active" style={{ width: 270, marginRight: 30 }}><div className="item-1">
+<div className="ondemand__app__box ">
+    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png" alt="Tinder Clone" title="Tinder Clone" className="crypto-xchange-sprite xchange-sprite-14" />
+    <div className="title__div">
+        <p> Tinder Clone App</p>
+    </div>
+    <div className="overlay">
+        <div className="overlay-content">
+            <a href="#!">View Project</a>
+        </div>
+    </div>
+</div>
+</div></div>
+</div>*/}
+
+
+{/* <div>
+
+                            <div className="card">
+                                <div className="card-img" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1491374812364-00028bbe7d2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a22e4862c36c552e726815949fbcb41a&auto=format&fit=crop&w=500&q=60)' }}>
+                                    <div className="overlay">
+                                        <div className="overlay-content">
+                                            <a href="#!">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="card-content">
+                                    <a href="">
+                                        <h2>Title</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div> */}

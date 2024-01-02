@@ -181,7 +181,31 @@
                 }
             });
         });
+
+        
     </script>
+    <!-- <script>
+        var slider = $('#slider');
+
+// to the right
+var slideRight = function() {
+  
+  // switch state
+  var dumb = slider.find('.behinder.left');
+  slider.find('.behinder.right').removeClass('right').addClass('left');
+  slider.find('.behind.right').removeClass('behind').addClass('behinder');
+  slider.find('.center').removeClass('center').addClass('behind right');
+  slider.find('.behind.left').removeClass('behind left').addClass('center');
+  dumb.removeClass('behinder').addClass('behind');
+}
+
+$('#right').on('click', function(){
+  slideRight();
+});
+
+
+
+    </script> -->
 
     <script type="application/ld+json">
         {

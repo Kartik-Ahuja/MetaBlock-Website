@@ -11,12 +11,12 @@ const SimilarFile = () => {
   return (
     <>
 
-      <section className="MtaverseSec DapsMainBg OurPrjctBg">
+      <section className="MtaverseSec DapsMainBg OurPrjctBg" style={{background:'black'}}>
         <div className="container container-1170">
           <div className="row">
             <div className="col-xl-10">
               <div className="OurSrvcHdd mb-3">
-                <div className="title">Our Projects</div>
+                <div className="title" style={{color:'purple'}}>Our Projects</div>
               </div>
               <div className="BnrCnt OurservHdd mb-4 OurPrjctHddSec">
                 <h2>
@@ -1503,10 +1503,10 @@ const SimilarFile = () => {
         </div>
       </section>
 
-      <section>
+      <section >
        <GenerativeAl/>
       </section>
-      <section>
+      <section style={{background:'black'}}>
         <AutoPlay />
       </section>
       {/* <section className="why_osiz_blockchain_sec">
@@ -1953,7 +1953,7 @@ const SimilarFile = () => {
             </div>
           </div>
         </section> */}
-      <section className="MtaverseSec DapsMainBg OurBlgBg">
+      <section className="MtaverseSec DapsMainBg OurBlgBg" style={{background:'black'}}>
         <div className="container container-1170">
           <div className="row align-items-center">
             <div className="col-xl-9">

@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
       {/* <Main/> */}
-      {/* <About /> */}
-      {/* <Footer /> */}
       <WebApplicationMainPage/>
+      <About />
+      <Footer />
       {/* <CardSlider/> */}
       {/* <OnDemandAppSlider/> */}
     </div>

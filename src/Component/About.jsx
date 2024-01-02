@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <div>
+    <div style={{background:'black'}}>
       <div>
         <section className="footer_new_form">
           <div className="container-fluid">

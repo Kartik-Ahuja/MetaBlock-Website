@@ -64,7 +64,7 @@
 
 
 
-.ondemand__app__box:before {
+.image-upper-color:before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -73,15 +73,17 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #76bae4ab;
+    background: #ce7070ab;
     transform: scaleX(0);
     transform-origin: 0 50%;
-    border-radius: 18px;
+    border-radius: 8px;
     transition: transform .3s ease-out;
+    width: 270px ;
+    height: 280px;
 }
 
 
-.ondemand__app__box:hover:before {
+.image-upper-color:hover:before {
     transform: scaleX(1);
 }
 
@@ -106,7 +108,7 @@
 
 }
 
-.ondemand__app__box .title__div {
+.ondemand__app__box-1 .title__div {
     position: relative;
     bottom: 30px;
     text-align: center;
@@ -119,7 +121,7 @@
     z-index: 1;
 }
 
-.ondemand__app__box .title__div p {
+.ondemand__app__box-1 .title__div p {
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -190,3 +192,4 @@
         /* flex-direction: column; */
     }
 }
+
