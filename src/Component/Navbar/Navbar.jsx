@@ -5,12 +5,21 @@ import YourComponent from "./Nav-button";
 import ContactForm from "./Nav-button";
 
 const Navbar = () => {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const WebData = [
-    { name: "Static Website" },
-    { name: "Dynamic Website" },
-    { name: "E-Commerce Website Single & Multi Wendor" },
+    {
+      name: "Static Website",
+      path: "/Static",
+    },
+    {
+      name: "Dynamic Website",
+      path: "/DynamicWebsite",
+    },
+    {
+      name: "E-Commerce Website Single & Multi Wendor",
+      path: "/Ecommerce",
+    },
   ];
 
   const SoftData = [
@@ -80,60 +89,144 @@ const Navbar = () => {
   ];
 
   const BlockChain = [
-    { name: "Smart Contract Developemnt" },
-    { name: "Private / Public Blockchain Development" },
-    { name: "DAO Blockchain Developmnent" },
-    { name: "Blockchain in SupplyChain" },
-    { name: "Blockchain in Voting " },
-    { name: "Blockchain in Live Aution" },
-    { name: "Blockchain in Document Verifiction" },
-    { name: "Blockchain in  Identity Verifiction" },
+    {
+      name: "Smart Contract Developemnt",
+      path: "/SmartContractDevelopemnt",
+    },
+    {
+      name: "Private / Public Blockchain Development",
+      path: "/Private/PublicBlockchainDevelopment",
+    },
+    {
+      name: "DAO Blockchain Developmnent",
+      path: "/DAOBlockchainDevelopmnent",
+    },
+    {
+      name: "Blockchain in SupplyChain",
+      path: "/BlockchainSupply",
+    },
+    {
+      name: "Blockchain in Voting ",
+      path: "/BlockchainVoting",
+    },
+    {
+      name: "Blockchain in Live Aution",
+      path: "/BlockchainLiveAution",
+    },
+    {
+      name: "Blockchain in Document Verifiction",
+      path: "/BlockchainDocument",
+    },
+    {
+      name: "Blockchain in  Identity Verifiction",
+      path: "/BlockchainIdentityVerifiction",
+    },
   ];
 
   const Wallet = [
-    { name: "Trust Wallet Clone Development " },
-    { name: "Wallet Connect Clone Development" },
-    { name: "White Paper Writting Services" },
+    {
+      name: "Trust Wallet Clone Development ",
+      path: "/TrustWalletCloneDevelopment",
+    },
+    { name: "Wallet Connect Clone Development", path: "/" },
+    {
+      name: "White Paper Writting Services",
+      path: "/WhitePaperWrittingServices",
+    },
   ];
 
   const Token = [
-    { name: "Semi -Fungible Token Development" },
-    { name: "Binanace Smart Chain BEP20 Token Development" },
-    { name: "Ethereum Token Development" },
+    { name: "Semi -Fungible Token Development",
+  path:"/SemiFungibleTokenDevelopment" },
+    { name: "Binanace Smart Chain BEP20 Token Development",
+  path:"/BinanaceSmartChainBEP20TokenDevelopment" },
+    {
+      name: "Ethereum Token Development",
+      path: "/EthereumTokenDevelopment",
+    },
   ];
 
   const DEX = [
-    { name: "Pancakeswap Exchange Clone Development" },
-    { name: "Uniswap Exchange Clone Developemnt" },
-    { name: "SushiSwap Exchange Clone Developement" },
-    { name: "White Label Exchange Development" },
+    {
+      name: "Pancakeswap Exchange Clone Development",
+    path:"/PancakeswapExchange"},
+    {
+      name: "Uniswap Exchange Clone Developemnt",
+  path:"/UniswapExchange"  },
+    {
+      name: "SushiSwap Exchange Clone Developement",
+    path:"/SushiSwapExchange"},
+    {
+      name: "White Label Exchange Development",
+      path: "/WhiteLabel",
+    },
   ];
 
   const Defi = [
-    { name: "DeFi Staking Platform Development" },
-    { name: "DeFi Token Development" },
-    { name: "DeFI Wallet Development" },
-    { name: "DeFi Smart Contract Development" },
-    { name: "DeFi DApps Development" },
-    { name: "DeFi Insurance Development" },
+    {
+      name: "DeFi Staking Platform Development",
+      path: "/DefiStaking",
+    },
+    { name: "DeFi Token Development" ,
+  path:"/DeFiTokenDevelopment"
+},
+    { name: "DeFI Wallet Development",
+    path:"/DeFiWalletDevelopment"
+   },
+    { name: "DeFi Smart Contract Development", 
+    path:"/DeFiSmartContractDevelopment"
+  },
+
+    { name: "DeFi DApps Development" ,
+    path:"/DeFiDAppsDevelopment"
+  },
+    { name: "DeFi Insurance Development",
+    path:"/DeFiInsuranceDevelopment"
+   },
   ];
 
   const NFT = [
-    { name: "NFT Marketplace Development" },
-    { name: "NFT Token Development" },
-    { name: "NFT Crosschain Platfrom Development" },
-    { name: "NFT Minting Development" },
-    { name: "NFT Art Marketplace Development" },
-    { name: "NFT Music Marketplace Development" },
-    { name: "NFT Fantasy Sports Platform Development" },
-    { name: "NFT Lending Platform Development" },
-    { name: "Binance NFT Marketplace Development" },
-    { name: "Polygon NFT Marketplace Development" },
+    {
+      name: "NFT Token Development",
+      path: "/NFTToken",
+    },
+    {
+      name: "NFT Marketplace Development",
+      path: "/NFTMarketplace",
+    },
+    { name: "NFT Crosschain Platfrom Development",
+  path:"/NFTCrosschainPlatfromDevelopment" 
+   },
+    { name: "NFT Minting Development",
+    path:"/NFTMintingDevelopment" 
+  },
+    { name: "NFT Art Marketplace Development",
+    path:"/NFTArtMarketplaceDevelopment" 
+  },
+    { name: "NFT Music Marketplace Development",
+    path:"/NFTMusicMarketplaceDevelopment" 
+  },
+    { name: "NFT Fantasy Sports Platform Development",
+    path:"/NFTFantasySportsPlatformDevelopment" 
+  },
+    { name: "NFT Lending Platform Development",
+    path:"/NFTLendingPlatform" 
+  },
+    { name: "Binance NFT Marketplace Development",
+    path:"/BinanceNFT" 
+  },
+    { name: "Polygon NFT Marketplace Development" ,
+    path:"/PolygonNFT" 
+  },
   ];
 
   const Launchpad = [
-    { name: "GameFi Launchapd Developemnt" },
-    { name: "Lunchpad Development" },
+    {
+      name: "GameFi Launchapd Developemnt",
+    path:"/GameFiLaunchapd"},
+    {
+      name: "Lunchpad Development",
+  path:"/LunchpadDevelopment"  },
   ];
 
   return (
@@ -141,16 +234,14 @@ const Navbar = () => {
       <header className="HddrBg">
         <nav style={{ display: "flex" }} className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <div className="logo_header">
-              <a href="https://www.osiztechnologies.com/" className>
-                <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/osiz-white-logo-gif.gif"
-                  className="img-fluid mbl_res_logo"
-                  alt="osiz"
-                  title="osiz"
-                  width="80%"
-                />
-              </a>
+            <div onClick={() => navigate("/")} className="logo_header">
+              <img
+                src="https://www.osiztechnologies.com/asset/home-page-new/images/osiz-white-logo-gif.gif"
+                className="img-fluid mbl_res_logo"
+                alt="osiz"
+                title="osiz"
+                width="80%"
+              />
             </div>
             {/* <button type="button" onclick="this.classList.toggle('active')" className="plate navbar-toggle CollBTn collapsed sm-only ui" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
           <svg className viewBox="0 13 75 75" xmlns="http://www.w3.org/2000/svg" onclick="this.classList.toggle('active')">
@@ -169,7 +260,11 @@ const Navbar = () => {
 
                 {/* -------------------------- Website Development------------------------------------- */}
                 <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                  <a
+                    onClick={() => navigate("/WbsiteDevelopment")}
+                    className="nav-link"
+                    href="#"
+                  >
                     Website
                   </a>
                   <div className="sub-menu">
@@ -178,7 +273,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {WebData.map((item, index) => (
-                              <li key={index}>
+                              <li
+                                onClick={() => navigate(item.path)}
+                                key={index}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -271,7 +369,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {BlockChain.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             target="_blank"
@@ -324,7 +425,7 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Launchpad.map((item, index) => (
-                                        <li key={index}>
+                                        <li onClick={()=>navigate(item.path)} key={index}>
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -368,7 +469,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Wallet.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -413,7 +517,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Token.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -457,7 +564,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Defi.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -501,7 +611,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {NFT.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -546,7 +659,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {DEX.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -1463,7 +1579,11 @@ const Navbar = () => {
                       <div className="col-lg-6">
                         <div>
                           <ul>
-                            <li>
+                            <li
+                              onClick={() =>
+                                navigate("/GeneralGamesDevelopment")
+                              }
+                            >
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1472,7 +1592,7 @@ const Navbar = () => {
                                 General Games Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/CasinoGames")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1481,7 +1601,7 @@ const Navbar = () => {
                                 Casino Games Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/MetaverseGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1490,7 +1610,7 @@ const Navbar = () => {
                                 Metaverse Game Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/BlockchainGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1756,11 +1876,7 @@ const Navbar = () => {
                 {/* ---------------Case studies-------------------- */}
 
                 <li className="nav-item menu_desk">
-                  <a
-                    className="nav-link"
-                    href="https://www.osiztechnologies.com/blog"
-                    target="_blank"
-                  >
+                  <a className="nav-link" target="_blank">
                     Case Studies
                   </a>
                 </li>

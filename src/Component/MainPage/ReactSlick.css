@@ -149,6 +149,7 @@ img {
   min-height: 330px;
   border: 1px solid;
   border-color: #e35cbd80 #e35cbd80 #817ce78f #817ce78f;
+  /* background-color: white; */
   border-radius: 20px;
   position: relative;
   padding: 40px 25px;
@@ -354,3 +355,15 @@ img {
 .Main-section .scroll-reveal-section .exchg_bg.DapsMainBg {
   min-height: 810px;
 } */
+
+
+title1{
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 1.4 !important;
+  font-family: "Urbanist", sans-serif !important;
+  text-transform: capitalize !important;
+  /* width: 83vw; */
+  margin: auto;
+  padding: 40px 0px;
+}

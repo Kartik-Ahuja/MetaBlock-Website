@@ -1,17 +1,12 @@
-// import './App.css';
-import About from './Component/About';
-import Footer from './Component/Footer';
-import Navbar from './Component/Navbar/Navbar';
-import Main from './Main';
+import React from "react";
+import AllRouteFiles from "./AllRouteFiles";
+
 
 function App() {
   return (
-    <div className="App">
-       {/* <Navbar/> */}
-       <Main/>
-       <About />
-        <Footer />
-    </div>
+   <>
+   <AllRouteFiles/>
+  </>
   );
 }
 

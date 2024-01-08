@@ -1,236 +1,234 @@
-
 import React, { Component } from "react";
 import Slider from "react-slick";
-import './ReactSlick.css'
+import "./ReactSlick.css";
 
 export default class AutoPlay extends Component {
-    render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: 2,
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      responsive: [
+        {
+          breakpoint: 911,
+          settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
-            speed: 2000,
-             responsive: [
-    {
-      breakpoint: 911,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    ]
-    
-            //    cssEase: "linear"
-        };
-        return (
-            <div className="slider-main-div">
-                <h2 class="title">Voices of Our <span class="cus_title">Satisfied Clients</span></h2>
-                <div className="slider-div">
-                    
-                <Slider {...settings}>
+          },
+        },
+      ],
 
-                    <div>
-                        <div className="item">
-                            <img
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
-                                className="img-fluid user_img"
-                                alt="Testimonials"
-                                title="Testimonials"
-                            />
-                            <div className="testMoLst">
-                                <div className="testMoImgBg">
-                                    <div className="head_sec">
-                                        <p className="sub_title">Nicky G Khun</p>
-                                        <p className="sub_title1">
-                                            Business Developer at SF Capital
-                                        </p>
-                                    </div>
-                                    <a
-                                        href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                                            className="img-fluid"
-                                            alt="Review-Star"
-                                            title="Review"
-                                        />
-                                    </a>
-                                </div>
-                                <p className="sub_contents">
-                                    "I have been working with Osiz Technologies with three
-                                    months until now. I have been very satisfied with the
-                                    outcome of the work produced by them. I have dealt with
-                                    crypto exchange and trading website, an excellent
-                                    professional and with the best customer service."
-                                </p>
-                            </div>
-                        </div>
+      //    cssEase: "linear"
+    };
+    return (
+      <div className="slider-main-div">
+        <h2 class="title">
+          Voices of Our <span class="cus_title">Satisfied Clients</span>
+        </h2>
+        <div className="slider-div">
+          <Slider {...settings}>
+            <div>
+              <div className="item">
+                <img
+                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  className="img-fluid user_img"
+                  alt="Testimonials"
+                  title="Testimonials"
+                />
+                <div className="testMoLst">
+                  <div className="testMoImgBg">
+                    <div className="head_sec">
+                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title1">
+                        Business Developer at SF Capital
+                      </p>
                     </div>
-                    <div>
-                        <div className="item">
-                            <img
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
-                                className="img-fluid user_img"
-                                alt="Testimonials"
-                                title="Testimonials"
-                            />
-                            <div className="testMoLst">
-                                <div className="testMoImgBg">
-                                    <div className="head_sec">
-                                        <p className="sub_title">Nicky G Khun</p>
-                                        <p className="sub_title1">
-                                            Business Developer at SF Capital
-                                        </p>
-                                    </div>
-                                    <a
-                                        href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                                            className="img-fluid"
-                                            alt="Review-Star"
-                                            title="Review"
-                                        />
-                                    </a>
-                                </div>
-                                <p className="sub_contents">
-                                    "I have been working with Osiz Technologies with three
-                                    months until now. I have been very satisfied with the
-                                    outcome of the work produced by them. I have dealt with
-                                    crypto exchange and trading website, an excellent
-                                    professional and with the best customer service."
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="item">
-                            <img
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
-                                className="img-fluid user_img"
-                                alt="Testimonials"
-                                title="Testimonials"
-                            />
-                            <div className="testMoLst">
-                                <div className="testMoImgBg">
-                                    <div className="head_sec">
-                                        <p className="sub_title">Nicky G Khun</p>
-                                        <p className="sub_title1">
-                                            Business Developer at SF Capital
-                                        </p>
-                                    </div>
-                                    <a
-                                        href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                                            className="img-fluid"
-                                            alt="Review-Star"
-                                            title="Review"
-                                        />
-                                    </a>
-                                </div>
-                                <p className="sub_contents">
-                                    "I have been working with Osiz Technologies with three
-                                    months until now. I have been very satisfied with the
-                                    outcome of the work produced by them. I have dealt with
-                                    crypto exchange and trading website, an excellent
-                                    professional and with the best customer service."
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="item">
-                            <img
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
-                                className="img-fluid user_img"
-                                alt="Testimonials"
-                                title="Testimonials"
-                            />
-                            <div className="testMoLst">
-                                <div className="testMoImgBg">
-                                    <div className="head_sec">
-                                        <p className="sub_title">Nicky G Khun</p>
-                                        <p className="sub_title1">
-                                            Business Developer at SF Capital
-                                        </p>
-                                    </div>
-                                    <a
-                                        href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                                            className="img-fluid"
-                                            alt="Review-Star"
-                                            title="Review"
-                                        />
-                                    </a>
-                                </div>
-                                <p className="sub_contents">
-                                    "I have been working with Osiz Technologies with three
-                                    months until now. I have been very satisfied with the
-                                    outcome of the work produced by them. I have dealt with
-                                    crypto exchange and trading website, an excellent
-                                    professional and with the best customer service."
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="item">
-                            <img
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
-                                className="img-fluid user_img"
-                                alt="Testimonials"
-                                title="Testimonials"
-                            />
-                            <div className="testMoLst">
-                                <div className="testMoImgBg">
-                                    <div className="head_sec">
-                                        <p className="sub_title">Nicky G Khun</p>
-                                        <p className="sub_title1">
-                                            Business Developer at SF Capital
-                                        </p>
-                                    </div>
-                                    <a
-                                        href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                                            className="img-fluid"
-                                            alt="Review-Star"
-                                            title="Review"
-                                        />
-                                    </a>
-                                </div>
-                                <p className="sub_contents">
-                                    "I have been working with Osiz Technologies with three
-                                    months until now. I have been very satisfied with the
-                                    outcome of the work produced by them. I have dealt with
-                                    crypto exchange and trading website, an excellent
-                                    professional and with the best customer service."
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </Slider>
+                    <a
+                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
+                        className="img-fluid"
+                        alt="Review-Star"
+                        title="Review"
+                      />
+                    </a>
+                  </div>
+                  <p className="sub_contents">
+                    "I have been working with Osiz Technologies with three
+                    months until now. I have been very satisfied with the
+                    outcome of the work produced by them. I have dealt with
+                    crypto exchange and trading website, an excellent
+                    professional and with the best customer service."
+                  </p>
                 </div>
-
+              </div>
             </div>
-        );
-    }
+            <div>
+              <div className="item">
+                <img
+                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  className="img-fluid user_img"
+                  alt="Testimonials"
+                  title="Testimonials"
+                />
+                <div className="testMoLst">
+                  <div className="testMoImgBg">
+                    <div className="head_sec">
+                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title1">
+                        Business Developer at SF Capital
+                      </p>
+                    </div>
+                    <a
+                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
+                        className="img-fluid"
+                        alt="Review-Star"
+                        title="Review"
+                      />
+                    </a>
+                  </div>
+                  <p className="sub_contents">
+                    "I have been working with Osiz Technologies with three
+                    months until now. I have been very satisfied with the
+                    outcome of the work produced by them. I have dealt with
+                    crypto exchange and trading website, an excellent
+                    professional and with the best customer service."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <img
+                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  className="img-fluid user_img"
+                  alt="Testimonials"
+                  title="Testimonials"
+                />
+                <div className="testMoLst">
+                  <div className="testMoImgBg">
+                    <div className="head_sec">
+                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title1">
+                        Business Developer at SF Capital
+                      </p>
+                    </div>
+                    <a
+                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
+                        className="img-fluid"
+                        alt="Review-Star"
+                        title="Review"
+                      />
+                    </a>
+                  </div>
+                  <p className="sub_contents">
+                    "I have been working with Osiz Technologies with three
+                    months until now. I have been very satisfied with the
+                    outcome of the work produced by them. I have dealt with
+                    crypto exchange and trading website, an excellent
+                    professional and with the best customer service."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <img
+                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  className="img-fluid user_img"
+                  alt="Testimonials"
+                  title="Testimonials"
+                />
+                <div className="testMoLst">
+                  <div className="testMoImgBg">
+                    <div className="head_sec">
+                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title1">
+                        Business Developer at SF Capital
+                      </p>
+                    </div>
+                    <a
+                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
+                        className="img-fluid"
+                        alt="Review-Star"
+                        title="Review"
+                      />
+                    </a>
+                  </div>
+                  <p className="sub_contents">
+                    "I have been working with Osiz Technologies with three
+                    months until now. I have been very satisfied with the
+                    outcome of the work produced by them. I have dealt with
+                    crypto exchange and trading website, an excellent
+                    professional and with the best customer service."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <img
+                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  className="img-fluid user_img"
+                  alt="Testimonials"
+                  title="Testimonials"
+                />
+                <div className="testMoLst">
+                  <div className="testMoImgBg">
+                    <div className="head_sec">
+                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title1">
+                        Business Developer at SF Capital
+                      </p>
+                    </div>
+                    <a
+                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
+                        className="img-fluid"
+                        alt="Review-Star"
+                        title="Review"
+                      />
+                    </a>
+                  </div>
+                  <p className="sub_contents">
+                    "I have been working with Osiz Technologies with three
+                    months until now. I have been very satisfied with the
+                    outcome of the work produced by them. I have dealt with
+                    crypto exchange and trading website, an excellent
+                    professional and with the best customer service."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </div>
+    );
+  }
 }
 
-
-{/* <section className="osiz_testimonial_sec">
+{
+  /* <section className="osiz_testimonial_sec">
     <div className="container">
         <h2 className="title">
             Voices of Our <span className="cus_title">Satisfied Clients</span>
@@ -447,4 +445,5 @@ export default class AutoPlay extends Component {
             </div>
         </div>
     </div>
-</section>  */}
+</section>  */
+}
