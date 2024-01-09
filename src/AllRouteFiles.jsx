@@ -52,6 +52,8 @@ import NFTMusicMarketplaceDevelopment from './Component/blockchain/NFTDevelopmen
 import NFTCrosschainPlatfromDevelopment from './Component/blockchain/NFTDevelopment/NFTCrosschainPlatfromDevelopment/NFTCrosschainPlatfromDevelopment';
 import NFTFantasySportsPlatformDevelopment from './Component/blockchain/NFTDevelopment/NFTFantasySportsPlatformDevelopment/NFTFantasySportsPlatformDevelopment';
 import Navbar from './Component/Navbar/Navbar'
+import MainBlockchain from './Component/blockchain/mainblockchain/MainBlockchain';
+
 
 const AllRouteFiles = () => {
   return (
@@ -66,7 +68,8 @@ const AllRouteFiles = () => {
           <Route path='/Blog' element={<Blog />} />
           <Route path='/Static' element={<Static />} />
           <Route path='/DynamicWebsite' element={<DynamicWebsite />} />
-          <Route path='/Ecommerce' element={<Ecommerce />} />
+          <Route path='/Ecommerce' element={ <Ecommerce /> } />
+         
           <Route path='/GeneralGamesDevelopment' element={<GeneralGamesDevelopment />} />
           <Route path='/CasinoGames' element={<CasinoGames />} />
           <Route path='/MetaverseGame' element={<MetaverseGame />} />
@@ -77,7 +80,8 @@ const AllRouteFiles = () => {
           <Route path='/WhitePaperWrittingServices' element={<WhitePaperWrittingServices/>} />
           <Route path='/EthereumTokenDevelopment' element={<EthereumTokenDevelopment/>} />
           {/* <Route path='/DefiStaking' element={<DefiStaking/>} /> */}
-         
+          
+          <Route path='/MainBlockchain' element={<MainBlockchain/>} />
           <Route path='/BlockchainSupply' element={<BlockchainSupply/>} />
           <Route path='/BlockchainVoting' element={<BlockchainVoting/>} />
           <Route path='/BlockchainLiveAution' element={<BlockchainLiveAution/>} />

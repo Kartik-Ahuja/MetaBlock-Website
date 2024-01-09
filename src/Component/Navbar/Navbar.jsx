@@ -339,7 +339,7 @@ const Navbar = () => {
                 {/* --------------------------------Main Blockchain development -------------------------------------*/}
 
                 <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                  <a onClick={()=>navigate('/MainBlockchain')} className="nav-link" >
                     Blockchain
                   </a>
                   <div className="sub-menu" style={{ width: "250px" }}>
@@ -350,9 +350,9 @@ const Navbar = () => {
                           <ul>
                             {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
-                              <a
+                              <a 
                                 className="dropdown_nav_link dropdown-toggle"
-                                href="#"
+                               
                                 id="Company_navbarDropdown"
                                 role="button"
                                 data-toggle="dropdown"
@@ -1570,8 +1570,10 @@ const Navbar = () => {
 
                 {/* -------------------------- Game Development ------------------------------------- */}
 
-                <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                <li  className="nav-item menu_desk">
+                  <a onClick={() =>
+                                navigate("/GeneralGamesDevelopment")
+                              } className="nav-link" >
                     Game
                   </a>
                   <div className="sub-menu">
