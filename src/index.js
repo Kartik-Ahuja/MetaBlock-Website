@@ -10,6 +10,9 @@ import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles
 import 'boxicons/css/boxicons.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+// Import Font Awesome styles
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

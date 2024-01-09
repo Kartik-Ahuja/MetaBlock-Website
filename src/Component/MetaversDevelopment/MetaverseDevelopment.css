@@ -140,6 +140,10 @@
     border-radius: 15px;
     }*/
 
+    #metaverse_dev_main a{
+        text-decoration: none;
+    }
+
 #metaverse_dev_main .metaverse_dev_facts {
     padding: 50px 0px;
 }
@@ -160,7 +164,7 @@
     line-height: 30px;
 }
 
-#metaverse_dev_main .metaverse_dev_facts .left_side_box {
+#metaverse_dev_main .metaverse_dev_facts .left_side_box-1 {
     background: linear-gradient(90.07deg, #FA00FF -1.25%, #00FFFF 99.93%);
     border-radius: 0px 20px 20px 0px;
     padding: 60px;
@@ -693,7 +697,7 @@
     padding: 50px 0px;
 }
 
-#metaverse_dev_main .metaverse_dev_top .title {
+#metaverse_dev_main .metaverse_dev_top .title-13 {
     font-size: 40px;
     color: #fff;
     font-weight: 700;
@@ -1138,7 +1142,7 @@
     #metaverse_dev_main .metaverse_dev_features .title,
     #metaverse_dev_main .metaverse_dev_business .title,
     #metaverse_dev_main .metaverse_dev_services .title,
-    #metaverse_dev_main .metaverse_dev_top .title,
+    #metaverse_dev_main .metaverse_dev_top .title-13,
     #metaverse_dev_main .metaverse_dev_model .title,
     #metaverse_dev_main .metaverse_dev_whychoose .title,
     #metaverse_dev_main .metaverse_game_ebook_sec .title,
@@ -1170,7 +1174,7 @@
     #metaverse_dev_main .metaverse_dev_services .services_box {
         min-height: 0px;
     }
-    #metaverse_dev_main .metaverse_dev_facts .left_side_box {
+    #metaverse_dev_main .metaverse_dev_facts .left_side_box-1 {
         padding: 22px;
     }
     #metaverse_dev_main .metaverse_dev_facts .title {

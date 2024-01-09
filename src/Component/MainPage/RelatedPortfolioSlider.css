@@ -21,7 +21,7 @@
 }
 
 @media(max-width:768px){
-    .elatedPortfolioSlider-main-div {
+    .RelatedPortfolioSlider-main-div {
         padding: 10px 0px;
         width: 80vw !important;
     }

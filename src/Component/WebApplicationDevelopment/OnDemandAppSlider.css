@@ -1,6 +1,6 @@
 .RelatedPortfolioSlider-main-div-2 {
-    width: 100vw;
-    padding: 50px 20px 30px 20px;
+    width: 100vw !important;
+    padding: 50px 20px 30px 20px !important;
     margin: 35px 0px;
     /* gap: 50px; */
     background-color: #fff;
@@ -106,6 +106,10 @@
 
 }
 
+/* .ondemand__app__box img{
+    width: 200px;
+} */
+
 .ondemand__app__box .title__div {
     position: relative;
     bottom: 30px;
@@ -176,17 +180,97 @@
     }
 }
 
-@media(max-width:768px) {
+@media (max-width:588px) {
+    .ondemand__app__box img {
+        width: 185px !important;
+    }
+
+    .ondemand__app__box .title__div {
+        width: 160px !important;
+        /* position: relative; */
+           }
+}
+
+@media(max-width:700px) {
+
+    .ondemand__app__box img {
+        width: 165px !important;
+    }
+
+    .ondemand__app__box .title__div {
+        width: 140px !important;
+        /* position: relative; */
+           }
+
+}
+
+
+@media(max-width:890px) {
+
+    .ondemand__app__box img {
+        width: 200px;
+    }
+
     .slider-div {
         width: 43vh;
         /* height: 30vh; */
     }
 
-    .item {
-        /* flex-direction: column; */
+    .RelatedPortfolioSlider-main-div-2 {
+        width: 100vw !important;
+        /* height: 130vh; */
+        padding: 0px 10px 30px !important;
+
     }
 
-    .item .testMoImgBg {
-        /* flex-direction: column; */
+    .RelatedPortfolioSlider-div-2 {
+        width: 87vw !important;
+        /* margin: auto !important; */
+        margin-left: 20px;
+        /* gap: 20px !important; */
+
     }
+
+    .ondemand__app__box .title__div {
+        width: 170px;
+        /* position: relative; */
+        bottom: 40px;
+        text-align: start !important;
+        background: #fff;
+        /* padding-right: 1px; */
+        margin-right: 10px;
+        margin: 0 15px;
+        border-radius: 3px;
+        box-shadow: gray;
+        box-shadow: 0 0 29.1px 0.9px rgba(0, 0, 0, .2);
+        z-index: 1;
+    }
+
+    .ondemand__app__box .title__div p {
+        color: black;
+        font-size: 13px;
+        font-weight: 700;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .overlay {
+        /* display: none; */
+        text-align: center;
+        width: 140px;
+        background: #148bfd;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .overlay .overlay-content a {
+
+        color: white;
+        text-decoration: none;
+    }
+
+
 }

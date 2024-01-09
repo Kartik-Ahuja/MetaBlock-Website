@@ -26,8 +26,6 @@ export default class RelatedPortfolioSlider extends Component {
         }
 
 
-
-
         return (
             <div className="RelatedPortfolioSlider-main-div">
                 <div className="RelatedPortfolioSlider-div">

@@ -19,10 +19,26 @@ export default class OnDemandAppSlider extends Component {
             autoplay: true,
             speed: 2000,
             responsive: [
+                // {
+                //     breakpoint: 769,
+                //     settings: {
+                //         slidesToShow: 2,
+                //         slidesToScroll: 1,
+                //     },
+                // },
+
                 {
-                    breakpoint: 768,
+                    breakpoint: 588,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    },
+                },
+               
+                {
+                    breakpoint: 890,
+                    settings: {
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                     },
                 },

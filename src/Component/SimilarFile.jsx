@@ -10,6 +10,8 @@ const SimilarFile = () => {
 
   return (
     <>
+    <div className="responsive-in-black-bg">
+
 
       <section className="MtaverseSec DapsMainBg OurPrjctBg" style={{background:'black'}}>
         <div className="container container-1170">
@@ -1506,7 +1508,7 @@ const SimilarFile = () => {
       <section >
        <GenerativeAl/>
       </section>
-      <section style={{background:'black'}}>
+      <section className='AutoPlay-section' style={{background:'black'}}>
         <AutoPlay />
       </section>
       {/* <section className="why_osiz_blockchain_sec">
@@ -2163,6 +2165,9 @@ const SimilarFile = () => {
           </div>
         </section>
       </main>
+
+    </div>
+
 
     </>
   )

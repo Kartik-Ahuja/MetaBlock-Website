@@ -11,7 +11,7 @@ import Phonecardslider from './Phonecardslider/Phonecardslider'
 const WebApplicationMainPage = () => {
   return (
     <>
-      <div style={{ background: '#f5f5f5' }}>
+      <div className='main-div-Application' style={{ background: '#f5f5f5' }}>
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
             <div className="row h-100">
@@ -311,7 +311,7 @@ const WebApplicationMainPage = () => {
             </div>
           </div>
         </section>
-        <section className="mid_section grey-bg">
+        <section className="mid_section grey-bg-1">
           <div className="container">
 
             <div className="section-heading text-center">
@@ -319,8 +319,8 @@ const WebApplicationMainPage = () => {
               <div className="why_round"> </div>
             </div>
             <div className="row-1" style={{ display: 'flex' }}>
-              <div className="col-sm-6 col-md-6 col-lg-6">
-                <p className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
+              <div  className="col-sm-6 col-md-6 col-lg-6">
+                <p  className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
                   by our pool of developers who are strong in this platform. To develop strong mobile application, hire our experienced mobile application developers, who are specialists in many programming languages such as Java, Python,
                   PHP, Swift, and Objective-C</p>
                 <div className="text-center">
@@ -328,7 +328,7 @@ const WebApplicationMainPage = () => {
                 </div>
               </div>
               <div>
-                <img src="/images/coding1-removebg-preview.png" alt="" />
+                <img className='hire-our-skill' src="/images/coding1-removebg-preview.png" alt="" />
 
               </div>
             </div>
