@@ -1640,10 +1640,12 @@ const Navbar = () => {
                                 Contact us
                               </a>
                             </li>
-                            <li>
+                            <li 
+                             onClick={() => navigate('./News')}
+                            >
                               <a
-                                href="https://www.osiztechnologies.com/news"
-                                target="_blank"
+                                // href="https://www.osiztechnologies.com/news"
+                                // target="_blank"
                               >
                                 News
                               </a>
@@ -1691,9 +1693,9 @@ const Navbar = () => {
                   </a>
                   <div className="dropdown-menu">
                     <ul>
-                      <li>
+                      <li onClick={()=>navigate('/Blog')}>
                         <a
-                          href="https://www.osiztechnologies.com/blog"
+                          
                           target="_blank"
                         >
                           Blogs
@@ -1743,10 +1745,10 @@ const Navbar = () => {
 
                 {/* ---------------Blogs-------------------- */}
 
-                <li className="nav-item menu_desk">
+                <li onClick={()=>navigate('/Blog')} className="nav-item menu_desk">
                   <a
                     className="nav-link"
-                    href="https://www.osiztechnologies.com/blog"
+                   
                     target="_blank"
                   >
                     Blogs

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Announcement.css";
 import { Link } from "react-router-dom";
+import Resizable from "./ReactSlick";
 
 const Announcement = () => {
   const Card = [
@@ -148,7 +149,7 @@ const Announcement = () => {
                           <span className="cus_title">Trending</span>{" "}
                           Announcement
                         </h2>
-                        <div className="row align-items-center justify-content-center">
+                        {/* <div className="row align-items-center justify-content-center">
                           {Card.map((item, index) => (
                             <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                   <a 
@@ -170,7 +171,9 @@ const Announcement = () => {
 
                             </div>
                           ))}
-                        </div>
+                        </div> */}
+                       
+                        <Resizable/>
                       </div>
                       <div
                         role="tabpanel"

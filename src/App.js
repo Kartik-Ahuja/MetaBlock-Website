@@ -12,6 +12,11 @@ import WebApplicationMainPage from './Component/WebApplicationDevelopment/WebApp
 import Main from './Main';
 import Celebrations from './Component/Insights/company/Celebrations/Celebrations';
 import Announcement from './Component/Insights/company/Announcement/Announcement';
+import Product from './Component/Insights/company/Announcement/Product';
+import News from './Component/Insights/company/Announcement/News';
+import Blog from './Component/blogs/Blog';
+import MainNews from './Component/Insights/company/News/MainNews';
+
 
 function App() {
   return (
@@ -26,7 +31,13 @@ function App() {
        <Route path='/Aboutus' element={<Aboutus/>}/>
        <Route path='/Celebrations' element={<Celebrations/>}/>
        <Route path='/Announcement' element={<Announcement/>}/>
-      
+       <Route path="/Product/:productId" element={<Product />} />
+       <Route path="/Productnews/:productnewsId" element={<Product />} />
+       <Route path='/Product' element={<Product />}/>
+       <Route path='/News' element={<MainNews />}/>
+       <Route path='/Blog' element={<Blog />}/>
+       
+
 
       </Routes>
           

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div>
-        <section className="footer_new_form">
+        <section className="footer_new_form" style={{background:'#000'}}>
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-11">

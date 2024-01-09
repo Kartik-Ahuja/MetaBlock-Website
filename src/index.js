@@ -10,12 +10,14 @@ import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles
 import 'boxicons/css/boxicons.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ShopContextProvider from './Component/Insights/company/Announcement/ShopContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <ShopContextProvider>
+    
+  <App />
+</ShopContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
