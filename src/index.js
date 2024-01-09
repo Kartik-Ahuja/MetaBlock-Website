@@ -11,6 +11,8 @@ import 'boxicons/css/boxicons.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import ShopContextProvider from './Component/Insights/company/Announcement/ShopContext';
+// Import Font Awesome styles
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

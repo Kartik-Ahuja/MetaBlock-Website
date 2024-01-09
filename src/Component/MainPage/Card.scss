@@ -349,12 +349,7 @@ figure.card1 {
         align-items: start;
     }
 
-    .container {
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: 1fr;
-        grid-gap: 40px;
-        padding: 80px 0;
-    }
+   
 }
 
 .support {

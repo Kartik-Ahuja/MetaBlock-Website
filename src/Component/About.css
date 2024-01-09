@@ -2373,13 +2373,7 @@ ul {
     text-align: right;
 }
 
-.BnrCnt h2 {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 72px;
-    font-family: "Urbanist", sans-serif;
-    text-transform: uppercase;
-}
+
 
 .BnrCnt h2 .Fw-200 {
     font-weight: 200;

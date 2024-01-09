@@ -5,7 +5,8 @@ import YourComponent from "./Nav-button";
 import ContactForm from "./Nav-button";
 
 const Navbar = () => {
-    const navigate = useNavigate();
+
+  const navigate = useNavigate();
 
   const WebData = [
     { name: "Static Website" },
@@ -14,69 +15,214 @@ const Navbar = () => {
   ];
 
   const SoftData = [
-    { name: "ERP Software" },
-    { name: "SAAS Software" },
-    { name: "Warehouse Managment Software" },
-    { name: "HRMS Software" },
-    { name: "Inventory Managment Software" },
-    { name: "Accounting & Billing Software" },
-    { name: "POS System Software" },
-    { name: "Employee Tracking Software" },
-    { name: "Attendance System Software" },
-    { name: "Library Managment System" },
-    { name: "LMS With Live Class Software" },
-    { name: "University Managment  Software" },
-    { name: "Quiz System Software" },
+    {
+      name: "ERP Software",
+      path: "/ERPSoftware"
+    },
+    {
+      name: "SAAS Software",
+      path: "/SAASSoftware"
+    },
+    {
+      name: "Warehouse Managment Software",
+      path: "/WarehouseManagmentSoftware"
+    },
+    {
+      name: "HRMS Software",
+      path: "/HRMSSoftware"
+    },
+    {
+      name: "Inventory Managment Software",
+      path: "/InventoryManagmentSoftware"
+    },
+    {
+      name: "Accounting & Billing Software",
+      path: "/AccountingBillingSoftware"
+    },
+    {
+      name: "POS System Software",
+      path: "/POSSystemSoftware"
+    },
+    {
+      name: "Employee Tracking Software",
+      path: "/EmployeeTrackingSoftware"
+    },
+    {
+      name: "Attendance System Software",
+      path: "/AttendanceSystemSoftware"
+    },
+    {
+      name: "Library Managment System",
+      path: "/LibraryManagmentSystem"
+    },
+    {
+      name: "LMS With Live Class Software",
+      path: "/LMSWithLiveClassSoftware"
+    },
+    {
+      name: "University Managment  Software",
+      path: "/UniversityManagmentSoftware"
+    },
+    {
+      name: "Quiz System Software",
+      path: "/QuizSystemSoftware"
+    },
   ];
 
   const SoftData1 = [
-    { name: "Astrology Software" },
-    { name: "Travel Booking Software" },
-    { name: "Matrimonial Software" },
-    { name: "Restaurant Managment System Software" },
-    { name: "Hotel Managment Software" },
-    { name: "Event management Software" },
-    { name: "Hospital Managment System Software" },
-    { name: "Real state Software" },
-    { name: "Clinic Managment System Software" },
-    { name: "MLM Software" },
-    { name: "Trading Software" },
-    { name: "Job Portal Software" },
+    {
+      name: "Astrology Software",
+      path: "/AstrologySoftware"
+    },
+    {
+      name: "Travel Booking Software",
+      path: "/TravelBookingSoftware"
+    },
+    {
+      name: "Matrimonial Software",
+      path: "/MatrimonialSoftware"
+    },
+    {
+      name: "Restaurant Managment System Software",
+      path: "/RestaurantManagmentSystemSoftware"
+    },
+    {
+      name: "Hotel Managment Software",
+      path: "/HotelManagmentSoftware"
+    },
+    {
+      name: "Event management Software",
+      path: "/EventmanagementSoftware"
+    },
+    {
+      name: "Hospital Managment System Software",
+      path: "/HospitalManagmentSystemSoftware"
+    },
+    {
+      name: "Real state Software",
+      path: "/RealstateSoftware"
+    },
+    {
+      name: "Clinic Managment System Software",
+      path: "/ClinicManagmentSystemSoftware"
+    },
+    {
+      name: "MLM Software",
+      path: "/MLMSoftware"
+    },
+    {
+      name: "Trading Software",
+      path: "/TradingSoftware"
+    },
+    {
+      name: "Job Portal Software",
+      path: "/JobPortalSoftware"
+    },
   ];
 
   const AppData = [
-    { name: "Cab Booking Apps" },
-    { name: "Grocery Apps" },
-    { name: "Travelling Apps" },
-    { name: "Chatting Apps" },
-    { name: "Fitness Apps" },
-    { name: "Rental Apps" },
-    { name: "Dating Apps" },
-    { name: "Astrology Apps" },
+
+    {
+      name: "Cab Booking Apps",
+      path: "/CabBookingApps"
+    },
+    {
+      name: "Grocery Apps",
+      path: "/GroceryApps"
+    },
+    {
+      name: "Travelling Apps",
+      path: "/TravellingApps"
+    },
+    {
+      name: "Chatting Apps",
+      path: "/ChattingApps"
+    },
+    {
+      name: "Fitness Apps",
+      path: "/FitnessApps"
+    },
+    {
+      name: "Rental Apps",
+      path: "/RentalApps"
+    },
+    {
+      name: "Dating Apps",
+      path: "/DatingApps"
+    },
+    {
+      name: "Astrology Apps",
+      path: "/AstrologyApps"
+    },
   ];
 
   const AppData1 = [
-    { name: "Food delivery Apps" },
-    { name: "Social Media Apps" },
-    { name: "Learning Managment Apps" },
-    { name: "Ecommerce Apps" },
-    { name: "Multivendor Home Service Apps" },
+    {
+      name: "Food delivery Apps",
+      path: "/FooddeliveryApps"
+    },
+    {
+      name: "Social Media Apps",
+      path: "/SocialMediaApps"
+    },
+    {
+      name: "Learning Managment Apps",
+      path: "/LearningManagmentApps"
+    },
+    {
+      name: "Ecommerce Apps",
+      path: "/EcommerceApps"
+    },
+    {
+      name: "Multivendor Home Service Apps",
+      path: "/MultivendorHomeServiceApps"
+    },
   ];
 
   const MetaData = [
-    { name: "Metaverse Development" },
-    { name: "Metaverse Game Development" },
-    { name: "Metaverse NFT Marketplace Development" },
-    { name: "Metaverse Virtual Showroom  Development" },
-    { name: "Metaverse Event Platform Development" },
-    { name: "Metaverse Avatar Development" },
+    {
+      name: "Metaverse Development",
+      path: "/MetaverseDevelopment"
+    },
+    {
+      name: "Metaverse Game Development",
+      path: "/MetaverseGameDevelopment"
+    },
+    {
+      name: "Metaverse NFT Marketplace Development",
+      path: "/MetaverseNFTMarketplaceDevelopment"
+    },
+    {
+      name: "Metaverse Virtual Showroom  Development",
+      path: "/MetaverseVirtualShowroomDevelopment"
+    },
+    {
+      name: "Metaverse Event Platform Development",
+      path: "/MetaverseEventPlatformDevelopment"
+    },
+    {
+      name: "Metaverse Avatar Development",
+      path: "/MetaverseAvatarDevelopment"
+    },
   ];
 
   const MetaData1 = [
-    { name: "Metaverse Social Media Platform Development" },
-    { name: "Metaverse Real Estate Development" },
-    { name: "Metaverse Virtual Land Development" },
-    { name: "Metaverse Launchpad Development" },
+    {
+      name: "Metaverse Social Media Platform Development",
+      path: "/MetaverseSocialMediaPlatformDevelopment"
+    },
+    {
+      name: "Metaverse Real Estate Development",
+      path: "/MetaverseRealEstateDevelopment"
+    },
+    {
+      name: "Metaverse Virtual Land Development",
+      path: "/MetaverseVirtualLandDevelopment"
+    },
+    {
+      name: "Metaverse Launchpad Development",
+      path: "/MetaverseLaunchpadDevelopment"
+    },
   ];
 
   const BlockChain = [
@@ -138,7 +284,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="HddrBg">
+      <header className="HddrBg" >
         <nav style={{ display: "flex",cursor:"pointer" }} className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <div className="logo_header">
@@ -163,7 +309,7 @@ const Navbar = () => {
             <div
               className="CllpsMenu collapse navbar-collapse w-100 "
               id="navbarNavAltMarkup"
-              style={{ marginLeft: "50px" }}
+              style={{ marginLeft: "50px", marginTop:"-20px" }}
             >
               <ul className="navbar-nav HddrLnks HdrSroll navMnuMn w-100">
                 {/* ----------------------------------------navbar starts now -------------------------------------------------------*/}
@@ -207,7 +353,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {SoftData.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -223,7 +369,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {SoftData1.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -581,7 +727,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {AppData.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -597,7 +743,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {AppData1.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -625,7 +771,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {MetaData.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -641,7 +787,7 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {MetaData1.map((item, index) => (
-                              <li key={index}>
+                              <li key={index} onClick={() => navigate(item.path)}>
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -1571,17 +1717,17 @@ const Navbar = () => {
                                           Celeberations
                                         </a>
                                       </li>
-                                      <li>
+                                      <li onClick={()=>navigate('/TermAndCondition')}>
                                         <a
-                                          href="https://www.osiztechnologies.com/terms-and-conditions"
+                                          // href="https://www.osiztechnologies.com/terms-and-conditions"
                                           target="_blank"
                                         >
                                           Terms and Conditions
                                         </a>
                                       </li>
-                                      <li>
+                                      <li onClick={()=>navigate('/PrivacyPolicy')}>
                                         <a
-                                          href="https://www.osiztechnologies.com/payment-refund-policy"
+                                          // href="https://www.osiztechnologies.com/payment-refund-policy"
                                           target="_blank"
                                         >
                                           Privacy Policy
@@ -1632,9 +1778,8 @@ const Navbar = () => {
                               </div>
                             </div> */}
 
-                            <li>
+                            <li onClick={() => navigate('/ContectUsForm')}>
                               <a
-                                href="https://www.osiztechnologies.com/news"
                                 target="_blank"
                               >
                                 Contact us
@@ -1650,18 +1795,10 @@ const Navbar = () => {
                                 News
                               </a>
                             </li>
-                            <li>
-                              <a
-                                href="https://www.osiztechnologies.com/announcement"
-                                target="_blank"
-                              >
-                                Testimonials
-                              </a>
-                            </li>
+                           
                             {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
-                            <li>
+                            <li onClick={()=>navigate('/InsightsFAQ')}>
                               <a
-                                href="https://www.osiztechnologies.com/faq"
                                 target="_blank"
                               >
                                 FAQ
@@ -1727,14 +1864,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/testimonials"
-                          target="_blank"
-                        >
-                          Testimonials
-                        </a>
-                      </li>
+                      
                       {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
                       {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
                       {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
@@ -1757,10 +1887,10 @@ const Navbar = () => {
 
                 {/* ---------------Case studies-------------------- */}
 
-                <li className="nav-item menu_desk">
+                <li className="nav-item menu_desk" onClick={()=>navigate('/CaseStudy')}>
                   <a
                     className="nav-link"
-                    href="https://www.osiztechnologies.com/blog"
+                    // href="https://www.osiztechnologies.com/blog"
                     target="_blank"
                   >
                     Case Studies
@@ -1903,15 +2033,15 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.osiztechnologies.com/terms-and-conditions"
+                          // href="https://www.osiztechnologies.com/terms-and-conditions"
                           target="_blank"
                         >
                           Terms and Conditions
                         </a>
                       </li>
-                      <li>
+                      <li >
                         <a
-                          href="https://www.osiztechnologies.com/payment-refund-policy"
+                          // href="https://www.osiztechnologies.com/payment-refund-policy"
                           target="_blank"
                         >
                           Privacy Policy
@@ -1955,7 +2085,7 @@ const Navbar = () => {
 
                 {/* ------------button talk to experts----------- */}
 
-                <li style={{ marginLeft: "150px" }}>{<ContactForm/>}</li>
+                <li style={{ marginLeft: "150px", marginTop:"25px" }}>{<ContactForm/>}</li>
                 {/* <div className="HddrBtns banner_btn_sec">
                   <button
                     data-toggle="modal"

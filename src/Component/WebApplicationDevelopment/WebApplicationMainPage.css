@@ -11,6 +11,36 @@ body {
     font-family: Raleway, sans-serif
 }
 
+.main-div-Application a {
+    text-decoration: none;
+}
+
+.main-div-Application a:hover {
+    text-decoration: none;
+}
+
+@media (max-width:1400px) {
+
+    .responsive-in-black-bg {
+        background-color: #000;
+    }
+}
+
+
+.main-div-Application {
+    padding-top: 87px !important;
+}
+
+
+
+
+@media (max-width:1000px) {
+    .main-div-Application {
+        padding-top: 65px !important;
+    }
+
+}
+
 a {
     color: #2f2d2d;
     -webkit-transition: all .35s;
@@ -59,6 +89,15 @@ section h2 {
     font-size: 50px
 }
 
+/*--------------Phone-card-slider-------------------- */
+
+
+.Phone-card-slider {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+}
+
 /* Base styles */
 .Enterprise-container {
     width: 100%;
@@ -66,6 +105,7 @@ section h2 {
     background-color: white;
     display: flex;
     padding: 50px;
+    margin-top: 100px;
 }
 
 .Enterprise-box {
@@ -76,11 +116,88 @@ section h2 {
     width: 100%;
 }
 
+/* 
+@media (max-width:368px) and (min-width:0px) {
+
+    .main-div-Application {
+        padding-top: 10px !important;
+    }
+} */
+
+
+/* Default styles */
+
+.grey-bg-1 {
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set maximum width for the content */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .section-heading {
+    margin-bottom: 20px;
+  }
+  
+  .row-1 {
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse; /* Reverse the order of columns on small screens */
+  }
+  
+  .col-sm-6 {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 20px;
+  }
+  
+  /* Image styles */
+  .hire-our-skill img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media (min-width: 768px) {
+    .row-1 {
+           flex-direction: row; /* Reset to default row direction on larger screens */
+    }
+    .hire-our-skill img {
+        max-width: 100%; /* Make sure images don't exceed their container */
+        height: auto; /* Maintain aspect ratio */
+      }
+  
+    .col-sm-6 {
+      width: 50%; /* Half width for medium and larger screens */
+    }
+  }
+  
+
+
+@media (max-width: 300px) and (min-width: 100px) {
+    .main-div-Application {
+        padding-top: 43px;
+    }
+}
+
+
 @media (max-width:768px) {
+
+    .main-div-Application {
+        padding-top: 47px !important;
+    }
+    
+    .Enterprise-container{
+        margin-top: 30px;
+    }
+
     .Enterprise-box {
         flex-direction: column;
     }
-    .Enterprise-left-div{
+
+    .Enterprise-left-div {
         margin-bottom: 10px;
 
     }
@@ -152,8 +269,8 @@ section h2 {
 }
 
 
-.OnDemandApp_section-1{
-    padding: 40px 0px ;
+.OnDemandApp_section-1 {
+    padding: 40px 0px;
     margin-bottom: 40px;
     background-color: white;
 }
@@ -415,7 +532,8 @@ header.masthead-finance .header-content h1 {
     color: #fff
 }
 
-header.55px-supply .header-content h1 {
+header .header-content h1 {
+    /* line-height: 4rem; */
     font-size: 63px !important;
     font-family: Raleway, sans-serif;
     font-weight: 600;
@@ -574,12 +692,13 @@ header.masthead-yii-framework-development .header-content h1,
 header.masthead-zend-framework-development .header-content h1 {
     font-size: 50px !important;
     font-family: Raleway, sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-align: center;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    text-align: center !important;
     margin-bottom: 20px !important;
-    color: #fff;
-    text-shadow: 3px 4px 5px rgba(0, 0, 0, .3)
+    color: #fff !important;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, .3) !important;
+    /* line-height: 4rem; */
 }
 
 header.masthead .device-container {
@@ -3202,6 +3321,7 @@ section.mid_section-1 {
     background-color: #fff !important;
     padding: 20px 0
 }
+
 .grey-bg {
     background: #f4f5fa
 }
@@ -3531,7 +3651,8 @@ header.masthead-mobility:after {
 .align-center {
     align-items: center
 }
-.text-center img{
+
+.text-center img {
     display: flex;
     width: 100px !important;
 }
@@ -3581,19 +3702,23 @@ label.error {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    /* background: l; */
     /* background: rgba(0, 0, 0, .6) none repeat scroll 0 0; */
-    background-image: url(../../../public/images/who-we-are-bg1.webp);
+    background-image:
+        linear-gradient(-90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+        url(../../../public/images/who-we-are-bg1.webp);
     background-size: cover;
 
 }
 
 .heading-tagline {
+    text-shadow: #c17777f4 !important;
     color: #fff;
     text-align: center;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 3rem
+    font-size: 20px;
+    line-height: 1.9rem
 }
 
 @media(min-width:768px) and (max-width:991px) {
@@ -6998,7 +7123,7 @@ header.masthead-ai-banner {
     }
 
     .mid_section p {
-        font-size: 16px
+        font-size: 16px;
     }
 
     .feature_1 {
@@ -8474,6 +8599,9 @@ header.ondemad_head .header-content h1 {
 }
 
 @media (max-width:768px) and (min-width:0px) {
+
+
+
     header.ondemad_head {
         background: #442ee5;
         height: auto !important;
@@ -8690,6 +8818,7 @@ header.masthead-blockchain-development .text-left {
 }
 
 .enterprise_mobile_app_services {
+    box-shadow: 0px 0px 20px skyblue;
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
@@ -8739,8 +8868,8 @@ header.masthead-blockchain-development .text-left {
 
 .enterprise_mobile_app_services .feature-content_1 p {
     color: black !important;
-   padding: 10px 0px !important;
-   text-align: justify  !important;
+    padding: 10px 0px !important;
+    text-align: justify !important;
 }
 
 .spr-feature-img-1 {
@@ -8986,7 +9115,7 @@ header.masthead-blockchain-development .text-left {
     height: 575px;
     background-position: -1413px -243px;
     background-size: 179rem;
-    margin: 0 auto ;
+    margin: 0 auto;
     /* background-image: url(../images/inner-pages/enterprise_mobile_app_development/mob-app-dev-vector-sprite.svg) */
 }
 
@@ -13091,7 +13220,7 @@ li.epe_blockchainslns_li {
 }
 
 .card:hover {
-    transform: translateY(-5px) scale(1.005) translateZ(0);
+    /* transform: translateY(-5px) scale(1.005) translateZ(0); */
     box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
 }
 
@@ -17043,7 +17172,6 @@ header.masthead-sportsbet {
     }
 
     #nftgp_hero .header-content h1 {
-        ;
         font-size: 26px !important;
         text-align: center;
     }

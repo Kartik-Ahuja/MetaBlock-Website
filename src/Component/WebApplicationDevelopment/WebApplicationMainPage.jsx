@@ -2,13 +2,16 @@ import React from 'react'
 import './WebApplicationMainPage.css'
 import OnDemandAppSlider from './OnDemandAppSlider'
 import CardSlider from './CardSlider'
+import SimilarFile from '../SimilarFile'
+import DeliveringNative from './Delivering Native/DeliveringNative'
+import Phonecardslider from './Phonecardslider/Phonecardslider'
 
 // import '../../main.css'
 
 const WebApplicationMainPage = () => {
   return (
     <>
-      <div style={{background:'#f5f5f5'}}>
+      <div className='main-div-Application' style={{ background: '#f5f5f5' }}>
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
             <div className="row h-100">
@@ -133,7 +136,7 @@ const WebApplicationMainPage = () => {
                     <h2>Android Tablet Development</h2>
                     <p>In this digital era, Android popularity is exploding. The reason why people.
                       growth remains the same. We enter into Android tablet development business to provide scalable and effective applications with fruitful features that range of user experience. Leverage our
-                      top-notch script to get the first-rate Android tablet development business</p>
+                      top-notch script to get the first-rate Android tablet development </p>
                   </div>
                   <div className="mobile_app_services_btn_div">
                     <a href="https://www.osiztechnologies.com/android-tablet-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
@@ -183,7 +186,8 @@ const WebApplicationMainPage = () => {
                     <h2>Android Tablet Development</h2>
                     <p>In this digital era, Android popularity is exploding. The reason why people.
                       growth remains the same. We enter into Android tablet development business to provide scalable and effective applications with fruitful features that range of user experience. Leverage our
-                      top-notch script to get the first-rate Android tablet development business</p>
+                      top-notch script to get the first-rate Android tablet development
+                    </p>
                   </div>
                   <div className="mobile_app_services_btn_div">
                     <a href="https://www.osiztechnologies.com/android-tablet-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
@@ -197,10 +201,14 @@ const WebApplicationMainPage = () => {
         {/* <section >
           <CardSlider/>
         </section> */}
-          {/* <RelatedPortfolioSlider/> */}
-          {/* <OnDemandAppSlider/> */}
+        {/* <RelatedPortfolioSlider/> */}
+        {/* <OnDemandAppSlider/> */}
         <section className='OnDemandApp_section'>
-          <OnDemandAppSlider/>
+          <OnDemandAppSlider />
+          {/* <CardSlider/> */}
+        </section>
+        <section>
+          <DeliveringNative />
         </section>
         <section className="section-heading mid_section-1">
           <div className="container">
@@ -210,14 +218,17 @@ const WebApplicationMainPage = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                
+              <div className="col-md-12" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+
                 <img src="images/techstack.png" width={'70%'} />
               </div>
-              
+
             </div>
           </div>
         </section>
+        {/* <section className='Phone-card-slider'>
+          <Phonecardslider />
+        </section> */}
         <section className="process_we_follow section-heading">
           <div className="container-fluid">
             <div className="row justify-content-center">
@@ -230,7 +241,7 @@ const WebApplicationMainPage = () => {
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/images/process-flow-new.svg" className='img-fluid'  />
+                <img src="/images/process-flow-new.svg" className='img-fluid' />
               </div>
             </div>
           </div>
@@ -300,29 +311,32 @@ const WebApplicationMainPage = () => {
             </div>
           </div>
         </section>
-        <section className="mid_section grey-bg">
+        <section className="mid_section grey-bg-1">
           <div className="container">
-           
-                  <div className="section-heading text-center">
-                    <h3>Hire Our Skilled Mobile App Developers</h3>
-                    <div className="why_round"> </div>
-                  </div>
-                  <div className="row-1" style={{display:'flex'}}>
-                    <div className="col-sm-6 col-md-6 col-lg-6">
-                      <p className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
-                        by our pool of developers who are strong in this platform. To develop strong mobile application, hire our experienced mobile application developers, who are specialists in many programming languages such as Java, Python,
-                        PHP, Swift, and Objective-C</p>
-                      <div className="text-center">
-                        <a href="https://www.osiztechnologies.com/request-for-quotation" className="expert-btn" style={{ margin: 0 }}>Request for Quote</a>
-                      </div>
-                    </div>
-                    <div>
-                    <img src="/images/coding1-removebg-preview.png" alt="" />
 
-                    </div>
-                  </div>
+            <div className="section-heading text-center">
+              <h3>Hire Our Skilled Mobile App Developers</h3>
+              <div className="why_round"> </div>
+            </div>
+            <div className="row-1" style={{ display: 'flex' }}>
+              <div  className="col-sm-6 col-md-6 col-lg-6">
+                <p  className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
+                  by our pool of developers who are strong in this platform. To develop strong mobile application, hire our experienced mobile application developers, who are specialists in many programming languages such as Java, Python,
+                  PHP, Swift, and Objective-C</p>
+                <div className="text-center">
+                  <a href="https://www.osiztechnologies.com/request-for-quotation" className="expert-btn" style={{ margin: 0 }}>Request for Quote</a>
                 </div>
-              
+              </div>
+              <div>
+                <img className='hire-our-skill' src="/images/coding1-removebg-preview.png" alt="" />
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section>
+          <SimilarFile />
         </section>
       </div>
 

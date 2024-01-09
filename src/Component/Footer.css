@@ -2663,7 +2663,7 @@ span.TxtGrdnt::after {
 }
 
 .MtaverseSec {
-    /* background: url(../images/metaverse-bg-new.webp?v1) no-repeat top; */
+  background: url(../../public/images/metaverse-bg-new.webp) no-repeat top;
     background-size: 100% 100%;
     position: relative;
     min-height: 800px;

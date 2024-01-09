@@ -17,9 +17,13 @@ import News from './Component/Insights/company/Announcement/News';
 import Blog from './Component/blogs/Blog';
 import MainNews from './Component/Insights/company/News/MainNews';
 
+import AllRouteFiles from "./AllRouteFiles";
+import ContectUsForm from "./Component/Insights/ContectUsForm/ContectUsForm";
+
 
 function App() {
   return (
+
     <div className="App">
         
        <BrowserRouter>
@@ -27,15 +31,7 @@ function App() {
       <Navbar/>
  
       <Routes>
-       <Route path='/' element={ <Main/>}/>
-       <Route path='/Aboutus' element={<Aboutus/>}/>
-       <Route path='/Celebrations' element={<Celebrations/>}/>
-       <Route path='/Announcement' element={<Announcement/>}/>
-       <Route path="/Product/:productId" element={<Product />} />
-       <Route path="/Productnews/:productnewsId" element={<Product />} />
-       <Route path='/Product' element={<Product />}/>
-       <Route path='/News' element={<MainNews />}/>
-       <Route path='/Blog' element={<Blog />}/>
+   
        
 
 
@@ -43,10 +39,12 @@ function App() {
           
        </BrowserRouter>
 
+        <AllRouteFiles />
        <About />
         <Footer />
 
     </div>
+
   );
 }
 

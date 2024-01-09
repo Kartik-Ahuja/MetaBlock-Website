@@ -12,7 +12,7 @@ const GenerativeAl = () => {
         <div className="contents_sec">
           <div className="service_box">
             <div className="head_sec">
-              <img src="https://www.osiztechnologies.com/asset/inner-pages-new/generative-ai-development-company/service-icons.svg" alt="Generative AI Consulting" title="Generative AI Consulting" className="sprite_icons" style={{objectPosition: '1px 0px'}} />
+              {/* <img src="https://www.osiztechnologies.com/asset/inner-pages-new/generative-ai-development-company/service-icons.svg" alt="Generative AI Consulting" title="Generative AI Consulting" className="sprite_icons" style={{objectPosition: '1px 0px'}} /> */}
               <div className="sub_title">Generative AI Consulting</div>
             </div>
             <p className="sub_contents">Based on the type of data, the intended output, and other variables, our consultant will analyse the client's data and make suggestions for the best generative AI approaches to utilise. There may be several ways to create

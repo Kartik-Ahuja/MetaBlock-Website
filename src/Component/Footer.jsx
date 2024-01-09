@@ -213,7 +213,7 @@ const Footer = () => {
         <div className="container container-1170">
           <div className="CpyRtSec text-center">
             <p className="mb-0">
-              Copyright © 2023 OSIZ TECHNOLOGIES PRIVATE LTD | All Rights
+              Copyright © {new Date().getFullYear()} METABLOCK TECHNOLOGIES PRIVATE LTD | All Rights
               Reserved
             </p>
           </div>

@@ -20,23 +20,23 @@ const WebApplication = () => {
         <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
       <div>
-      <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
+        <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
       <div>
-      <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
+        <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
       <div>
-      <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
+        <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
       <div>
-      <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
+        <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
       <div>
-      <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
+        <img src="/images/who-we-are-bg.webp " width={'200px'} alt="Image 1" />
       </div>
 
       {/* Add more slides as needed */}
-    </Slider>
+    </Slider> 
   );
 };
 
