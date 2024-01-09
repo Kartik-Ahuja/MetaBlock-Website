@@ -1716,17 +1716,17 @@ const Navbar = () => {
                                           Celeberations
                                         </a>
                                       </li>
-                                      <li>
+                                      <li onClick={()=>navigate('/TermAndCondition')}>
                                         <a
-                                          href="https://www.osiztechnologies.com/terms-and-conditions"
+                                          // href="https://www.osiztechnologies.com/terms-and-conditions"
                                           target="_blank"
                                         >
                                           Terms and Conditions
                                         </a>
                                       </li>
-                                      <li>
+                                      <li onClick={()=>navigate('/PrivacyPolicy')}>
                                         <a
-                                          href="https://www.osiztechnologies.com/payment-refund-policy"
+                                          // href="https://www.osiztechnologies.com/payment-refund-policy"
                                           target="_blank"
                                         >
                                           Privacy Policy
@@ -1898,10 +1898,10 @@ const Navbar = () => {
 
                 {/* ---------------Case studies-------------------- */}
 
-                <li className="nav-item menu_desk">
+                <li className="nav-item menu_desk" onClick={()=>navigate('/CaseStudy')}>
                   <a
                     className="nav-link"
-                    href="https://www.osiztechnologies.com/blog"
+                    // href="https://www.osiztechnologies.com/blog"
                     target="_blank"
                   >
                     Case Studies
@@ -2044,15 +2044,15 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.osiztechnologies.com/terms-and-conditions"
+                          // href="https://www.osiztechnologies.com/terms-and-conditions"
                           target="_blank"
                         >
                           Terms and Conditions
                         </a>
                       </li>
-                      <li>
+                      <li >
                         <a
-                          href="https://www.osiztechnologies.com/payment-refund-policy"
+                          // href="https://www.osiztechnologies.com/payment-refund-policy"
                           target="_blank"
                         >
                           Privacy Policy

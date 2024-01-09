@@ -60,6 +60,9 @@ import MetaverseRealEstateDevelopment from './Component/MetaversDevelopment/Meta
 import MetaverseVirtualLandDevelopment from './Component/MetaversDevelopment/MetaverseVirtualLandDevelopment';
 import ContectUsForm from './Component/Insights/ContectUsForm/ContectUsForm';
 import InsightsFAQ from './Component/Insights/InsightsFAQ/InsightsFAQ';
+import PrivacyPolicy from './privacyPolicy/privacyPolicy';
+import TermAndCondition from './TermAndCondition/TermAndCondition';
+import CaseStudy from './Case Study/CaseStudy';
 
 const AllRouteFiles = () => {
     return (
@@ -140,7 +143,17 @@ const AllRouteFiles = () => {
                         {/*  Insights  */}
 
                         <Route path='ContectUsForm' element={<ContectUsForm />} />
-                        <Route path='InsightsFAQ' element={<InsightsFAQ     />} />
+                        <Route path='InsightsFAQ' element={<InsightsFAQ />} />
+
+                        {/* privacyPolicy */}
+                        <Route path='PrivacyPolicy' element={<PrivacyPolicy />} />
+                        <Route path='TermAndCondition' element={<TermAndCondition />} />
+
+                        {/* CaseStudy */}
+
+                        <Route path='CaseStudy' element={<CaseStudy />} />
+                        
+
 
                     </Routes>
 
@@ -148,7 +161,7 @@ const AllRouteFiles = () => {
                     {/* <About />*/}
 
 
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             </BrowserRouter>
         </>

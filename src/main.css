@@ -372,7 +372,7 @@ li {
     margin: 0 auto;
   }
 
-  .Main-section .blockchain_dev_sec .mnyExpoScImg img {
+  .Main-section .blockchain_dev_sec .mnyExpoSc-1Img img {
     margin-top: 30px;
   }
 }
@@ -3094,7 +3094,7 @@ ul {
 
   .MnuPaddTop #homebanner,
   .MnuPaddTop .BnnerCntSec,
-  .MnuPaddTop .mnyExpoSc,
+  .MnuPaddTop .mnyExpoSc-1,
   .MnuPaddTop .metaSlnSc,
   .MnuPaddTop .MtaverseSec h2,
   .MnuPaddTop .MtaverseSec h4 {
@@ -3131,7 +3131,7 @@ ul {
     display: inline-table;
   }
 
-  .mnyExpoSc .mnySub:after {
+  .mnyExpoSc-1 .mnySub:after {
     display: none;
   }
 
@@ -3493,8 +3493,12 @@ span.TxtGrdnt::after {
   margin-bottom: 20px;
 }
 
+.OurPrjctBg{
+  background-image: url(../public/images/metaverse-bg-new.webp);
+}
+
 .MtaverseSec {
-  /* background: url(../images/metaverse-bg-new.webp?v1) no-repeat top; */
+  background: url(../public/images/metaverse-bg-new.webp) no-repeat top;
   background-size: 100% 100%;
   position: relative;
   min-height: 800px;
@@ -4786,11 +4790,11 @@ html {
   }
 }
 
-.mnyExpoSc {
+.mnyExpoSc-1 {
   padding: 60px 0px;
 }
 
-.mnyExpoSc .mnySubTlt {
+.mnyExpoSc-1 .mnySubTlt {
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 30px !important;
@@ -4799,12 +4803,12 @@ html {
   color: #FFFFFF !important;
 }
 
-.mnyExpoSc .mnySub {
+.mnyExpoSc-1 .mnySub {
   position: relative;
   z-index: 1;
 }
 
-.mnyExpoSc .mnySub:after {
+.mnyExpoSc-1 .mnySub:after {
   content: "";
   position: absolute;
   bottom: 2px;
@@ -4816,13 +4820,13 @@ html {
 }
 
 @media(max-width: 767px) {
-  .mnyExpoSc .mnySubTlt {
+  .mnyExpoSc-1 .mnySubTlt {
     font-size: 15px !important;
   }
 }
 
 @media(max-width: 372px) {
-  .mnyExpoSc .mnySubTlt {
+  .mnyExpoSc-1 .mnySubTlt {
     font-size: 13px !important;
   }
 }
@@ -5059,12 +5063,12 @@ html {
   }
 }
 
-.mnyExpoScImg {
+.mnyExpoSc-1Img {
   position: relative;
   z-index: 1;
 }
 
-.mnyExpoScImg:after {
+.mnyExpoSc-1Img:after {
   content: "";
   position: absolute;
   top: 0px;
@@ -5078,7 +5082,7 @@ html {
   filter: blur(52px);
 }
 
-.mnyExpoScImg:before {
+.mnyExpoSc-1Img:before {
   content: "";
   position: absolute;
   top: 0px;
