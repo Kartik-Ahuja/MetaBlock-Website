@@ -5,7 +5,7 @@ const AboutForm = () => {
   return (
     <div className="contect-form">
       
-      <form className='form-div' action="https://formspree.io/f/xgegewal" method='POSt' >
+      <form className='form-div' action="https://formspree.io/f/xnqeqapk" method='POSt' >
         <h3 className='form-heading-1'>Send your Feedback</h3>
         <input type="text " placeholder='Username' name='Username' required autoComplete='off' />
         <input type="email " placeholder='Email' name='Email' required autoComplete='off' />

@@ -1,38 +1,32 @@
-import React from 'react'
-
 import Card from './MainPage/Card'
 import RelatedPortfolioSlider from './MainPage/RelatedPortfolioSlider'
 import AutoPlay from './MainPage/ReactSlick'
 import GenerativeAl from './MainPage/GenerativeAl'
-
+import React from "react";
 
 const SimilarFile = () => {
-
   return (
     <>
     <div className="responsive-in-black-bg">
 
 
       <section className="MtaverseSec DapsMainBg OurPrjctBg" style={{background:'black'}}>
+
+      <section className="MtaverseSec DapsMainBg OurPrjctBg">
         <div className="container container-1170">
           <div className="row">
             <div className="col-xl-10">
               <div className="OurSrvcHdd mb-3">
-                <div className="title" style={{color:'purple'}}>Our Projects</div>
+                <div className="title" style={{color:'purple' , margin:"0px 0px 0px -10px", width:"100%"}}>Our Projects</div>
               </div>
-              <div className="BnrCnt OurservHdd mb-4 OurPrjctHddSec">
-                <h2>
-                  Get to know more about
-                  <span className="Txt8282 px-2">our works</span> from our
-                  portfolio.
+              <div className="BnrCnt OurservHdd mb-4 OurPrjctHddSec" style={{ textAlign:"left"}}>
+                <h2 style={{width:"80vw" }}>
+                Browse our impactful  <br />
+                <span className="Txt8282 px-2">portfolio showcase.</span> 
+                  
                 </h2>
-                <p className="col-lg-8 pl-0">
-                  Displayed below is a collection of the best work devised by
-                  Osiz. Browse through our portfolio for a detailed vision.
-                  Our portfolio includes a diverse range of projects, from
-                  Blockchain, and Metaverse to Web3 and Exchange,
-                  demonstrating our ability to adapt and excel in different
-                  creative fields.
+                <p className="text-left">
+                Our services encompass web development, app development, game development, software development, and blockchain development.
                 </p>
               </div>
             </div>
@@ -150,17 +144,17 @@ const SimilarFile = () => {
                             <div className="port_sub_title">Game</div>
                             <p>
                               Ready to take your gaming experience to the next
-                              level? Look no further than Osiz Technologies.
-                              Our cutting-edge software and expert developers
-                              have created some of the most immersive games on
-                              the market. From action-packed shooters to
-                              strategy games that will keep you on your toes,
-                              we've got it all. And with our seamless
-                              multiplayer capabilities, you can connect with
-                              players from around the world for an even more
-                              exciting experience. Don't settle for mediocre
-                              games - choose Osiz Technologies for the
-                              ultimate gaming adventure!
+                              level? Look no further than Osiz Technologies. Our
+                              cutting-edge software and expert developers have
+                              created some of the most immersive games on the
+                              market. From action-packed shooters to strategy
+                              games that will keep you on your toes, we've got
+                              it all. And with our seamless multiplayer
+                              capabilities, you can connect with players from
+                              around the world for an even more exciting
+                              experience. Don't settle for mediocre games -
+                              choose Osiz Technologies for the ultimate gaming
+                              adventure!
                             </p>
                           </div>
                         </div>
@@ -293,17 +287,17 @@ const SimilarFile = () => {
                           <div className="PrjctDtlCnt">
                             <div className="port_sub_title">Metaverse</div>
                             <p>
-                              Looking to enter the world of the Metaverse?
-                              Look no further, as Metaverse is the next
-                              generation of the internet where physical and
-                              digital worlds collide. Osiz is at the forefront
-                              of at the forefront of this revolutionary
-                              technology, offering cutting-edge solutions for
-                              businesses and individuals alike. Our team of
-                              experts creates immersive experiences that allow
-                              users to interact with virtual environments,
-                              socialize with others, and even conduct business
-                              in a decentralized marketplace.
+                              Looking to enter the world of the Metaverse? Look
+                              no further, as Metaverse is the next generation of
+                              the internet where physical and digital worlds
+                              collide. Osiz is at the forefront of at the
+                              forefront of this revolutionary technology,
+                              offering cutting-edge solutions for businesses and
+                              individuals alike. Our team of experts creates
+                              immersive experiences that allow users to interact
+                              with virtual environments, socialize with others,
+                              and even conduct business in a decentralized
+                              marketplace.
                             </p>
                           </div>
                         </div>
@@ -521,13 +515,12 @@ const SimilarFile = () => {
                               systems to building a new decentralized
                               application from scratch, we've got you covered.
                               Leverage the power of blockchain with end-to-end
-                              development services with experts from Osiz.
-                              With cutting-edge technology, we empower
-                              businesses to manage their data securely and
-                              efficiently, transactions, and operations.
-                              Revolutionize your business with the
-                              transformative potential of blockchain
-                              technology with our assistance.
+                              development services with experts from Osiz. With
+                              cutting-edge technology, we empower businesses to
+                              manage their data securely and efficiently,
+                              transactions, and operations. Revolutionize your
+                              business with the transformative potential of
+                              blockchain technology with our assistance.
                             </p>
                           </div>
                         </div>
@@ -679,17 +672,16 @@ const SimilarFile = () => {
                             <div className="port_sub_title">Exchange</div>
                             <p>
                               Looking for a secure and reliable cryptocurrency
-                              exchange platform? Avail of the services from
-                              Osiz as we are equipped with white-label
-                              cryptocurrency exchange software that is
-                              multi-tested and feature-drenched. Leverage our
-                              exchange software which is built with advanced
-                              security features to ensure the safety of your
-                              transactions. With an intuitive user interface,
-                              buying and selling cryptocurrencies has been
-                              made easier than before. Reach us to unlock the
-                              potential of future finance to enter the
-                              platform of digitalization.
+                              exchange platform? Avail of the services from Osiz
+                              as we are equipped with white-label cryptocurrency
+                              exchange software that is multi-tested and
+                              feature-drenched. Leverage our exchange software
+                              which is built with advanced security features to
+                              ensure the safety of your transactions. With an
+                              intuitive user interface, buying and selling
+                              cryptocurrencies has been made easier than before.
+                              Reach us to unlock the potential of future finance
+                              to enter the platform of digitalization.
                             </p>
                           </div>
                         </div>
@@ -847,8 +839,8 @@ const SimilarFile = () => {
                               NFT platform allows creators to tokenize their
                               unique digital assets, from art to music and
                               beyond. With NFTs, you can ensure your creations
-                              are authentic, scarce, and valuable. Join the
-                              NFT revolution today and monetize your digital
+                              are authentic, scarce, and valuable. Join the NFT
+                              revolution today and monetize your digital
                               creations get started with Osiz to create, sell,
                               and trade your NFTs with ease and security.
                             </p>
@@ -1015,12 +1007,12 @@ const SimilarFile = () => {
                               Dominate the world of blockchain gaming with our
                               cutting-edge solutions from a prominent Play To
                               Earn Development company like Osiz. Leverage our
-                              end-to-end development services that include
-                              game design, smart contract development, wallet
-                              integration, and more. Our expert blockchain
-                              game developers help you create a seamless and
-                              secure platform for your users with the benefits
-                              of earning rewards while gameplay.
+                              end-to-end development services that include game
+                              design, smart contract development, wallet
+                              integration, and more. Our expert blockchain game
+                              developers help you create a seamless and secure
+                              platform for your users with the benefits of
+                              earning rewards while gameplay.
                             </p>
                           </div>
                         </div>
@@ -1195,14 +1187,14 @@ const SimilarFile = () => {
                             <p>
                               Launch a secure, robust, scalable, and
                               interoperable DeFi platform with services from a
-                              leading DeFi Development Company like Osiz.
-                              Employ our blockchain expert and fetch our
-                              end-to-end defi service that ranges from wallet
-                              integration to DEX and token, dApps, etc. Unlock
-                              the potential of DeFi as it provides a
-                              decentralized network with enhanced
-                              transparency, security, and trust. Change the
-                              way around where your money works for you.
+                              leading DeFi Development Company like Osiz. Employ
+                              our blockchain expert and fetch our end-to-end
+                              defi service that ranges from wallet integration
+                              to DEX and token, dApps, etc. Unlock the potential
+                              of DeFi as it provides a decentralized network
+                              with enhanced transparency, security, and trust.
+                              Change the way around where your money works for
+                              you.
                             </p>
                           </div>
                         </div>
@@ -1354,11 +1346,7 @@ const SimilarFile = () => {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="tab-pane fade"
-                  id="PrjctTbb10"
-                  role="tabpanel"
-                >
+                <div className="tab-pane fade" id="PrjctTbb10" role="tabpanel">
                   <div>
                     <div className="PrjctDtlsItm dapp-1">
                       <div className="row align-items-center">
@@ -1372,10 +1360,10 @@ const SimilarFile = () => {
                               our professional developers help you provide an
                               intuitive user experience by integrating
                               cutting-edge technologies and tools. We serve
-                              various domains like Metaverse, DeFi, NFT,
-                              Gaming, Exchanges, and more with our expertise.
-                              Join the decentralized revolution with our
-                              cutting-edge Dapp solutions.
+                              various domains like Metaverse, DeFi, NFT, Gaming,
+                              Exchanges, and more with our expertise. Join the
+                              decentralized revolution with our cutting-edge
+                              Dapp solutions.
                             </p>
                           </div>
                         </div>
@@ -1511,450 +1499,7 @@ const SimilarFile = () => {
       <section className='AutoPlay-section' style={{background:'black'}}>
         <AutoPlay />
       </section>
-      {/* <section className="why_osiz_blockchain_sec">
-          <div className="container">
-            <div className="BnrCnt OurservHdd mb-lg-4">
-              <h2 className=" ">
-                Why Osiz<span className="Txt8282 px-2">is Your</span> Trusted
-                Blockchain{" "}
-                <span className="Txt8282 px-2">Development Partner?</span>
-              </h2>
-            </div>
-            <div className="why_osiz_blockchain_card">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-12" />
-                <div className="col-lg-6 col-12">
-                  <p className="contents">
-                    Osiz Technologies, with its vast experience and expertise in
-                    blockchain development, emerges as a trusted partner in the
-                    industry. Leveraging cutting-edge technologies like
-                    Ethereum, Hyperledger, and Stellar we build secure and
-                    scalable blockchain applications that cater to diverse
-                    business requirements. Our customer-centric approach ensures
-                    effective communication and collaboration throughout the
-                    project lifecycle, ensuring transparency and timely delivery
-                    of projects. Osiz as your blockchain development partner
-                    delivers high-quality solutions that transform your business
-                    operations seamlessly into the decentralized future.
-                  </p>
-                  <div className="HddrBtns mt-4">
-                    <button
-                      data-toggle="modal"
-                      data-target="#popup_form_modal"
-                      className="btn BtnPrimry TlkBtn"
-                      target="_blank"
-                    >
-                      <span>
-                        <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
-                          alt="enquiry"
-                          loading="eager"
-                          className="img-fluid lazyload mr-2"
-                        />
-                        Talk to our Experts
-                      </span>
-                      <span>
-                        <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
-                          alt="enquiry"
-                          loading="eager"
-                          className="img-fluid lazyload mr-2"
-                        />
-                        Talk to our Experts
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-      {/* <section className="MtaverseSec DapsMainBg OurBlgBg">
-          <div className="container container-1170">
-            <div className="row align-items-center">
-              <div className="col-xl-9">
-                <div className="OurSrvcHdd mb-3">
-                  <div className="blog_title">Our Blog</div>
-                </div>
-                <div className="BnrCnt OurservHdd mb-4">
-                  <h2 className="mb-4">
-                    Outspoken thoughts related to
-                    <span className="Txt8282 px-2">blockchain</span>
-                  </h2>
-                  <p className="col-lg-6 pl-0">
-                    Get frequent updates on the latest tech trends with our
-                    substantial work guide.
-                  </p>
-                </div>
-              </div>
-              <div className="col-xl-3 text-right">
-                <div className=" ">
-                  <a
-                    href="https://www.osiztechnologies.com/blog"
-                    className="ViwallLnk"
-                    role="link"
-                    aria-label="View All"
-                    target="_blank"
-                  >
-                    <span className="VwAllLnkHov">
-                      View All
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="row mt-4">
-              <div className="ColWdth">
-                <div className="BlgCntBg">
-                  <div className="BlgCntImg">
-                    <img
-                      src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Metaverse-Virtual-Land-Development.webp"
-                      loading="eager"
-                      className="img-fluid lazyload"
-                      alt="Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse  "
-                      title="Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse "
-                    />
-                  </div>
-                  <div className="BlgHdd">
-                    <h3 className="cat_title">Metaverse</h3>
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.osiztechnologies.com/blog/metaverse-virtual-land-development"
-                    aria-label="Read more about Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse "
-                    style={{ color: "#fff" }}
-                  ></a>
-                  <div className="BlgCntSec">
-                    <a
-                      target="_blank"
-                      href="https://www.osiztechnologies.com/blog/metaverse-virtual-land-development"
-                      aria-label="Read more about Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse "
-                      style={{ color: "#fff" }}
-                    >
-                      <h4>
-                        Metaverse Virtual Land Development-To launch your
-                        Virtual Land in the Metaverse
-                      </h4>
-                    </a>
-                    <div className="BlgCnt">
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/metaverse-virtual-land-development"
-                        aria-label="Read more about Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse "
-                        style={{ color: "#fff" }}
-                      >
-                        <p>
-                          Osiz is a pre-eminent metaverse virtual land
-                          development company that offers extra-ordinary
-                          services...
-                        </p>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/metaverse-virtual-land-development"
-                        aria-label="Read more about Metaverse Virtual Land Development-To launch your Virtual Land in the Metaverse "
-                        className="ViwallLnk"
-                      >
-                        <span className="VwAllLnkHov VwAllLnkHov1">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                        <span className="VwAllLnkHov VwAllLnkHov2">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ColWdth">
-                <div className="BlgCntBg">
-                  <div className="BlgCntImg">
-                    <img
-                      src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Web3-Wallet-Development.webp"
-                      loading="eager"
-                      className="img-fluid lazyload"
-                      alt="Web3 Wallet Development Company - Osiz "
-                      title="Web3 Wallet Development Company - Osiz"
-                    />
-                  </div>
-                  <div className="BlgHdd">
-                    <h3 className="cat_title">Web3</h3>
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.osiztechnologies.com/blog/web3-wallet-development"
-                    aria-label="Read more about Web3 Wallet Development Company - Osiz"
-                    style={{ color: "#fff" }}
-                  ></a>
-                  <div className="BlgCntSec">
-                    <a
-                      target="_blank"
-                      href="https://www.osiztechnologies.com/blog/web3-wallet-development"
-                      aria-label="Read more about Web3 Wallet Development Company - Osiz"
-                      style={{ color: "#fff" }}
-                    >
-                      <h4>Web3 Wallet Development Company - Osiz</h4>
-                    </a>
-                    <div className="BlgCnt">
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/web3-wallet-development"
-                        aria-label="Read more about Web3 Wallet Development Company - Osiz"
-                        style={{ color: "#fff" }}
-                      >
-                        <p>
-                          Osiz is a Pioneer Web3 Wallet Development Company with
-                          years of experience in build Web3 Wallets. Wi...
-                        </p>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/web3-wallet-development"
-                        aria-label="Read more about Web3 Wallet Development Company - Osiz"
-                        className="ViwallLnk"
-                      >
-                        <span className="VwAllLnkHov VwAllLnkHov1">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                        <span className="VwAllLnkHov VwAllLnkHov2">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ColWdth">
-                <div className="BlgCntBg">
-                  <div className="BlgCntImg">
-                    <img
-                      src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Blockchain-Business-Ideas-2023.webp"
-                      loading="eager"
-                      className="img-fluid lazyload"
-                      alt="Top 10 Blockchain Business Ideas in 2023 - Osiz "
-                      title="Top 10 Blockchain Business Ideas in 2023 - Osiz"
-                    />
-                  </div>
-                  <div className="BlgHdd">
-                    <h3 className="cat_title">Blockchain</h3>
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.osiztechnologies.com/blog/blockchain-business-ideas-2023"
-                    aria-label="Read more about Top 10 Blockchain Business Ideas in 2023 - Osiz"
-                    style={{ color: "#fff" }}
-                  ></a>
-                  <div className="BlgCntSec">
-                    <a
-                      target="_blank"
-                      href="https://www.osiztechnologies.com/blog/blockchain-business-ideas-2023"
-                      aria-label="Read more about Top 10 Blockchain Business Ideas in 2023 - Osiz"
-                      style={{ color: "#fff" }}
-                    >
-                      <h4>Top 10 Blockchain Business Ideas in 2023 - Osiz</h4>
-                    </a>
-                    <div className="BlgCnt">
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/blockchain-business-ideas-2023"
-                        aria-label="Read more about Top 10 Blockchain Business Ideas in 2023 - Osiz"
-                        style={{ color: "#fff" }}
-                      >
-                        <p>
-                          In the year 2023, as blockchain technology takes the
-                          world by storm, let's look at Trending Top 10 b...
-                        </p>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/blockchain-business-ideas-2023"
-                        aria-label="Read more about Top 10 Blockchain Business Ideas in 2023 - Osiz"
-                        className="ViwallLnk"
-                      >
-                        <span className="VwAllLnkHov VwAllLnkHov1">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                        <span className="VwAllLnkHov VwAllLnkHov2">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ColWdth">
-                <div className="BlgCntBg">
-                  <div className="BlgCntImg">
-                    <img
-                      src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Metaverse Virtual Mall Development.webp"
-                      loading="eager"
-                      className="img-fluid lazyload"
-                      alt="Metaverse Virtual Mall Development Company "
-                      title="Metaverse Virtual Mall Development Company"
-                    />
-                  </div>
-                  <div className="BlgHdd">
-                    <h3 className="cat_title">Metaverse</h3>
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.osiztechnologies.com/blog/metaverse-virtual-mall-development"
-                    aria-label="Read more about Metaverse Virtual Mall Development Company"
-                    style={{ color: "#fff" }}
-                  ></a>
-                  <div className="BlgCntSec">
-                    <a
-                      target="_blank"
-                      href="https://www.osiztechnologies.com/blog/metaverse-virtual-mall-development"
-                      aria-label="Read more about Metaverse Virtual Mall Development Company"
-                      style={{ color: "#fff" }}
-                    >
-                      <h4>Metaverse Virtual Mall Development Company</h4>
-                    </a>
-                    <div className="BlgCnt">
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/metaverse-virtual-mall-development"
-                        aria-label="Read more about Metaverse Virtual Mall Development Company"
-                        style={{ color: "#fff" }}
-                      >
-                        <p>
-                          Osiz is your go-to development partner for Metaverse
-                          virtual malls. We help you create a powerful, s...
-                        </p>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/metaverse-virtual-mall-development"
-                        aria-label="Read more about Metaverse Virtual Mall Development Company"
-                        className="ViwallLnk"
-                      >
-                        <span className="VwAllLnkHov VwAllLnkHov1">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                        <span className="VwAllLnkHov VwAllLnkHov2">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ColWdth">
-                <div className="BlgCntBg">
-                  <div className="BlgCntImg">
-                    <img
-                      src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/top 10 metaverse development companies.png"
-                      loading="eager"
-                      className="img-fluid lazyload"
-                      alt="Top 10 Metaverse Development Companies 2023 "
-                      title="Top 10 Metaverse Development Companies 2023"
-                    />
-                  </div>
-                  <div className="BlgHdd">
-                    <h3 className="cat_title">Metaverse</h3>
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.osiztechnologies.com/blog/top-10-metaverse-development-companies"
-                    aria-label="Read more about Top 10 Metaverse Development Companies 2023"
-                    style={{ color: "#fff" }}
-                  ></a>
-                  <div className="BlgCntSec">
-                    <a
-                      target="_blank"
-                      href="https://www.osiztechnologies.com/blog/top-10-metaverse-development-companies"
-                      aria-label="Read more about Top 10 Metaverse Development Companies 2023"
-                      style={{ color: "#fff" }}
-                    >
-                      <h4>Top 10 Metaverse Development Companies 2023</h4>
-                    </a>
-                    <div className="BlgCnt">
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/top-10-metaverse-development-companies"
-                        aria-label="Read more about Top 10 Metaverse Development Companies 2023"
-                        style={{ color: "#fff" }}
-                      >
-                        <p>
-                          Check out our list of the top 10 Metaverse development
-                          companies in 2023. Discover the pioneers shap...
-                        </p>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.osiztechnologies.com/blog/top-10-metaverse-development-companies"
-                        aria-label="Read more about Top 10 Metaverse Development Companies 2023"
-                        className="ViwallLnk"
-                      >
-                        <span className="VwAllLnkHov VwAllLnkHov1">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                        <span className="VwAllLnkHov VwAllLnkHov2">
-                          Read More
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/view-all-arrw.svg "
-                            className="ml-2"
-                            alt="arrow"
-                          />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+    
       <section className="MtaverseSec DapsMainBg OurBlgBg" style={{background:'black'}}>
         <div className="container container-1170">
           <div className="row align-items-center">
@@ -1993,7 +1538,6 @@ const SimilarFile = () => {
               </div>
             </div>
           </div>
-
         </div>
         <Card />
       </section>
@@ -2007,156 +1551,452 @@ const SimilarFile = () => {
               <div className="col-xl-7 col-12">
                 <div className="mid_section">
                   <div className="section-heading">
-                    <p className="faq_title">Frequently Asked <br /> Questions (FAQs)</p>
+                    <p className="faq_title">
+                      Frequently Asked <br /> Questions (FAQs)
+                    </p>
                     <p className="faq_contents" />
                   </div>
                 </div>
                 <div className="job-cnt">
                   <div className="panel-group" id="accordion">
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne1">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne1"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-                            <p className="qus_title">1. What is the metaverse and why is it gaining popularity?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne1"
+                            aria-expanded="false"
+                            aria-controls="collapseOne1"
+                          >
+                            <p className="qus_title">
+                              1. What is the metaverse and why is it gaining
+                              popularity?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne1" className="panel-collapse collapse" aria-labelledby="headingOne1" data-parent="#accordion">
+                      <div
+                        id="collapseOne1"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne1"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>The metaverse refers to a virtual universe where people can interact with each other and digital entities in real time. It is gaining popularity due to its potential to revolutionize various industries, including
-                            gaming, entertainment, social networking, e-commerce, and more. The metaverse offers immersive experiences, limitless possibilities, and new avenues for communication and collaboration.</p>
+                          <p>
+                            The metaverse refers to a virtual universe where
+                            people can interact with each other and digital
+                            entities in real time. It is gaining popularity due
+                            to its potential to revolutionize various
+                            industries, including gaming, entertainment, social
+                            networking, e-commerce, and more. The metaverse
+                            offers immersive experiences, limitless
+                            possibilities, and new avenues for communication and
+                            collaboration.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne2">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne2"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
-                            <p className="qus_title">2. What is Metaverse Development?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne2"
+                            aria-expanded="false"
+                            aria-controls="collapseOne2"
+                          >
+                            <p className="qus_title">
+                              2. What is Metaverse Development?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne2" className="panel-collapse collapse" aria-labelledby="headingOne2" data-parent="#accordion">
+                      <div
+                        id="collapseOne2"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne2"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>Metaverse Development refers to the process of creating virtual environments, often using 3D technologies, that enable users to interact with each other and digital objects in a shared, immersive space. It involves
-                            the design, coding, and integration of various elements to build these digital realms, which may include virtual reality (VR), augmented reality (AR), and mixed reality (MR) experiences.</p>
+                          <p>
+                            Metaverse Development refers to the process of
+                            creating virtual environments, often using 3D
+                            technologies, that enable users to interact with
+                            each other and digital objects in a shared,
+                            immersive space. It involves the design, coding, and
+                            integration of various elements to build these
+                            digital realms, which may include virtual reality
+                            (VR), augmented reality (AR), and mixed reality (MR)
+                            experiences.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne3">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne3"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
-                            <p className="qus_title">3. How can I get started with metaverse development for my project or business?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne3"
+                            aria-expanded="false"
+                            aria-controls="collapseOne3"
+                          >
+                            <p className="qus_title">
+                              3. How can I get started with metaverse
+                              development for my project or business?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne3" className="panel-collapse collapse" aria-labelledby="headingOne3" data-parent="#accordion">
+                      <div
+                        id="collapseOne3"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne3"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>To get started with metaverse development, you can explore resources, online courses, and communities related to 3D modeling, game development, AR/VR technologies, and software development. Additionally, you
-                            can engage with Osiz - a leading metaverse development company. We provide guidance and support for your specific metaverse project or business needs.</p>
+                          <p>
+                            To get started with metaverse development, you can
+                            explore resources, online courses, and communities
+                            related to 3D modeling, game development, AR/VR
+                            technologies, and software development.
+                            Additionally, you can engage with Osiz - a leading
+                            metaverse development company. We provide guidance
+                            and support for your specific metaverse project or
+                            business needs.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne4">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne4"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
-                            <p className="qus_title">4. What's the expected timeframe for creating a metaverse?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne4"
+                            aria-expanded="false"
+                            aria-controls="collapseOne4"
+                          >
+                            <p className="qus_title">
+                              4. What's the expected timeframe for creating a
+                              metaverse?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne4" className="panel-collapse collapse" aria-labelledby="headingOne4" data-parent="#accordion">
+                      <div
+                        id="collapseOne4"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne4"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>The timeframe for creating a metaverse can vary significantly depending on the scope and complexity of the project. A simple metaverse project might take a few months, while more ambitious, large-scale metaverse
-                            initiatives could take several months to develop fully.</p>
+                          <p>
+                            The timeframe for creating a metaverse can vary
+                            significantly depending on the scope and complexity
+                            of the project. A simple metaverse project might
+                            take a few months, while more ambitious, large-scale
+                            metaverse initiatives could take several months to
+                            develop fully.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne5">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne5"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" aria-controls="collapseOne5">
-                            <p className="qus_title">5. What benefits can Metaverse development bring to your business?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne5"
+                            aria-expanded="false"
+                            aria-controls="collapseOne5"
+                          >
+                            <p className="qus_title">
+                              5. What benefits can Metaverse development bring
+                              to your business?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne5" className="panel-collapse collapse" aria-labelledby="headingOne5" data-parent="#accordion">
+                      <div
+                        id="collapseOne5"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne5"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>Metaverse development can offer several significant benefits to your business: Access to Global Markets, Enhanced Customer Engagement, Collaboration and Remote Work, Virtual Product Testing, Brand Exposure,
-                            Training and Education, Gaming &amp; Entertainment, Data Analytics, Innovation and Competitive Advantage. These are the highlighted advantages of using the metaverse in business.</p>
+                          <p>
+                            Metaverse development can offer several significant
+                            benefits to your business: Access to Global Markets,
+                            Enhanced Customer Engagement, Collaboration and
+                            Remote Work, Virtual Product Testing, Brand
+                            Exposure, Training and Education, Gaming &amp;
+                            Entertainment, Data Analytics, Innovation and
+                            Competitive Advantage. These are the highlighted
+                            advantages of using the metaverse in business.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default" role="tablist">
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne6">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne6"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne6" aria-expanded="false" aria-controls="collapseOne6">
-                            <p className="qus_title">6. What are the top companies specializing in metaverse development?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne6"
+                            aria-expanded="false"
+                            aria-controls="collapseOne6"
+                          >
+                            <p className="qus_title">
+                              6. What are the top companies specializing in
+                              metaverse development?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne6" className="panel-collapse collapse" aria-labelledby="headingOne6" data-parent="#accordion">
+                      <div
+                        id="collapseOne6"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne6"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>There are several companies at the forefront of metaverse development. Some of the top companies include: Microsoft, Osiz Technologies, GamesdApp, Queppelin and Aetsoft.</p>
+                          <p>
+                            There are several companies at the forefront of
+                            metaverse development. Some of the top companies
+                            include: Microsoft, Osiz Technologies, GamesdApp,
+                            Queppelin and Aetsoft.
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div className="panel panel-default" role="tablist" style={{ display: 'none' }}>
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne7">
+                    <div
+                      className="panel panel-default"
+                      role="tablist"
+                      style={{ display: "none" }}
+                    >
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne7"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne7" aria-expanded="false" aria-controls="collapseOne7">
-                            <p className="qus_title">7. What kind of metaverse software development services does Osiz offer?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne7"
+                            aria-expanded="false"
+                            aria-controls="collapseOne7"
+                          >
+                            <p className="qus_title">
+                              7. What kind of metaverse software development
+                              services does Osiz offer?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne7" className="panel-collapse collapse" aria-labelledby="headingOne7" data-parent="#accordion">
+                      <div
+                        id="collapseOne7"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne7"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>Osiz offers a range of metaverse software development services, including metaverse app development, virtual reality development, augmented reality development, blockchain integration, artificial intelligence
-                            integration, and more. We work with clients to create custom solutions that meet their unique needs and requirements.</p>
+                          <p>
+                            Osiz offers a range of metaverse software
+                            development services, including metaverse app
+                            development, virtual reality development, augmented
+                            reality development, blockchain integration,
+                            artificial intelligence integration, and more. We
+                            work with clients to create custom solutions that
+                            meet their unique needs and requirements.
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div className="panel panel-default" role="tablist" style={{ display: 'none' }}>
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne8">
+                    <div
+                      className="panel panel-default"
+                      role="tablist"
+                      style={{ display: "none" }}
+                    >
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne8"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne8" aria-expanded="false" aria-controls="collapseOne8">
-                            <p className="qus_title">8. How much does it cost to develop a metaverse?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne8"
+                            aria-expanded="false"
+                            aria-controls="collapseOne8"
+                          >
+                            <p className="qus_title">
+                              8. How much does it cost to develop a metaverse?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne8" className="panel-collapse collapse" aria-labelledby="headingOne8" data-parent="#accordion">
+                      <div
+                        id="collapseOne8"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne8"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p>The cost of developing a metaverse can vary significantly and depends on various factors, including the scale, complexity, and specific features of the metaverse. Small-scale projects can begin with a budget
-                            of a few thousand dollars, while the cost of large-scale, fully immersive metaverse development can vary significantly based on the project's specific requirements and scale.</p>
+                          <p>
+                            The cost of developing a metaverse can vary
+                            significantly and depends on various factors,
+                            including the scale, complexity, and specific
+                            features of the metaverse. Small-scale projects can
+                            begin with a budget of a few thousand dollars, while
+                            the cost of large-scale, fully immersive metaverse
+                            development can vary significantly based on the
+                            project's specific requirements and scale.
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div className="panel panel-default" role="tablist" style={{ display: 'none' }}>
-                      <div className="panel-heading" role="tab" aria-selected="true" id="headingOne9">
+                    <div
+                      className="panel panel-default"
+                      role="tablist"
+                      style={{ display: "none" }}
+                    >
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        aria-selected="true"
+                        id="headingOne9"
+                      >
                         <div className="panel-title">
-                          <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne9" aria-expanded="false" aria-controls="collapseOne9">
-                            <p className="qus_title">9. How can businesses get started with metaverse development for their specific needs?</p>
+                          <a
+                            className="collapsed"
+                            role="button"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseOne9"
+                            aria-expanded="false"
+                            aria-controls="collapseOne9"
+                          >
+                            <p className="qus_title">
+                              9. How can businesses get started with metaverse
+                              development for their specific needs?
+                            </p>
                           </a>
                         </div>
                       </div>
-                      <div id="collapseOne9" className="panel-collapse collapse" aria-labelledby="headingOne9" data-parent="#accordion">
+                      <div
+                        id="collapseOne9"
+                        className="panel-collapse collapse"
+                        aria-labelledby="headingOne9"
+                        data-parent="#accordion"
+                      >
                         <div className="panel-body job-cnt-hd">
-                          <p><strong> </strong></p>
-                          <p>Define clear objectives and goals for metaverse development.</p>
-                          <p>Research and choose a development team or partner with expertise in metaverse technologies.</p>
-                          <p>Create a detailed project plan that aligns with your business needs.</p>
-                          <p>Consider pilot projects or smaller initiatives to test the waters.</p>
-                          <p>Continuously gather feedback from users and iterate on the development to improve the user experience and meet business goals.</p>
+                          <p>
+                            <strong> </strong>
+                          </p>
+                          <p>
+                            Define clear objectives and goals for metaverse
+                            development.
+                          </p>
+                          <p>
+                            Research and choose a development team or partner
+                            with expertise in metaverse technologies.
+                          </p>
+                          <p>
+                            Create a detailed project plan that aligns with your
+                            business needs.
+                          </p>
+                          <p>
+                            Consider pilot projects or smaller initiatives to
+                            test the waters.
+                          </p>
+                          <p>
+                            Continuously gather feedback from users and iterate
+                            on the development to improve the user experience
+                            and meet business goals.
+                          </p>
                           <p> </p>
-                          <p>Our Metaverse expert will guide you throughout the ideation and project development cycle.</p>
+                          <p>
+                            Our Metaverse expert will guide you throughout the
+                            ideation and project development cycle.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <br />
                     <div className="faq_load_btn_sec">
-                      <a href="#" id="loadMore" className="nav-link btn btn_skype faq_load_btn" style={{ display: 'block' }}>Load More</a>
-                      <a href="#" id="loadless" className="nav-link btn btn_skype faq_load_btn" style={{ display: 'none' }}>Load Less </a>
+                      <a
+                        href="#"
+                        id="loadMore"
+                        className="nav-link btn btn_skype faq_load_btn"
+                        style={{ display: "block" }}
+                      >
+                        Load More
+                      </a>
+                      <a
+                        href="#"
+                        id="loadless"
+                        className="nav-link btn btn_skype faq_load_btn"
+                        style={{ display: "none" }}
+                      >
+                        Load Less{" "}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -2165,12 +2005,13 @@ const SimilarFile = () => {
           </div>
         </section>
       </main>
+      </section>
 
     </div>
 
 
     </>
-  )
-}
+  );
+};
 
-export default SimilarFile
+export default SimilarFile;

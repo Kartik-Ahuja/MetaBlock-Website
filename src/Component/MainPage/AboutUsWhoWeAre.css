@@ -28,7 +28,9 @@
 }
 
 .heading-about-us h1 {
-    font-size: 6vw;
+    font-size: 5vw;
+    display: flex;
+    margin-top: 90px;
     /* Responsive font size using viewport width */
     font-weight: 700;
     line-height: 1.4;
@@ -48,7 +50,7 @@
 }
 
 .about-us-p p {
-    line-height: 1.2;
+    line-height: 1.5;
     font-weight: 300;
     font-size: 1.3vw;
     /* Responsive font size using viewport width */
@@ -64,11 +66,13 @@
 
     .heading-about-us {
         border-radius: 15px 15px 0px 0px;
-        width: 350px;
-        margin: auto;
+        width: 300px;
+        margin: auto ;
+        
     }
 
     .heading-about-us h1 {
+    margin: 10px 0px 0px 30px;
         font-size: 30px;
         padding-top: 10px;
         /* Adjusted font size for smaller screens */

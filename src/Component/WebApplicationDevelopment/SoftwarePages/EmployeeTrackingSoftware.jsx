@@ -10,8 +10,9 @@ import SimilarFile from '../../SimilarFile'
 
 const EmployeeTrackingSoftware = () => {
   return (
+
     <>
-      <div className='main-div-Application' style={{ background: '#f5f5f5' }}>
+      <div className='main-div-Application' style={{ background: '#000' }}>
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
             <div className="row h-100">

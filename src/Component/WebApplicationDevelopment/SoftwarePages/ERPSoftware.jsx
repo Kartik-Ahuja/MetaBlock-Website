@@ -1,30 +1,45 @@
-import React from 'react'
-import '../WebApplicationMainPage.css'
-import OnDemandAppSlider from '../OnDemandAppSlider'
-import CardSlider from '../CardSlider'
-import DeliveringNative from '../Delivering Native/DeliveringNative'
-import Phonecardslider from '../Phonecardslider/Phonecardslider'
-import SimilarFile from '../../SimilarFile'
+import React from "react";
+import "../WebApplicationMainPage.css";
+import OnDemandAppSlider from "../OnDemandAppSlider";
+import CardSlider from "../CardSlider";
+import DeliveringNative from "../Delivering Native/DeliveringNative";
+import Phonecardslider from "../Phonecardslider/Phonecardslider";
+import SimilarFile from "../../SimilarFile";
+import { useNavigate } from "react-router-dom";
 
 // import '../../main.css'
 
 const ERPSoftware = () => {
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className='main-div-Application' style={{ background: '#f5f5f5' }}>
+      <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
             <div className="row h-100">
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
-                    {/* Blockchain Finance Management */}Mobile App Development Company</h1>
-                  <h3 className="heading-tagline">From start-ups to enterprise-level, We render futuristic mobile applications with robust functionalities and cutting edge technologies to hit huge audience for your mobile app business. Leverage our complete mobile app services
-                    to revolutionize the mobile app world with our outstanding strategies</h3>
+                    {/* Blockchain Finance Management */}ERP Software
+                    Development
+                  </h1>
+                  <h3 className="heading-tagline">
+                    From start-ups to enterprises, we deliver forward-thinking
+                    ERP software with robust functionalities and cutting-edge
+                    technologies. Harness our comprehensive ERP services to
+                    revolutionize your business processes and strategies in the
+                    ERP world.
+                  </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                  <div className="text-center">
-                    <a href="https://www.osiztechnologies.com/request-for-quotation" className="expert-btn">Request For Quote</a>
-                  </div>
+                  {/* <div className="text-center">
+                    <a
+                      href="https://www.osiztechnologies.com/request-for-quotation"
+                      className="expert-btn"
+                    >
+                      Request For Quote
+                    </a>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -62,26 +77,49 @@ const ERPSoftware = () => {
       </div>
     </div>
   </section>  */}
-        <section className='Enterprise-container'>
+        <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h2>Enterprise Mobility Solutions Provider</h2>
-              <p>Mobile app development, a precise option to enhance your business potential. We Osiz Technologies - An industry-leading mobile app development company that provides enterprise-grade mobile app development services & solutions for your business. We design and develop custom mobile applications for Android & iOS platforms. We have 50+ mobile app developers who have in-depth knowledge of building customer-centric mobile applications as per the client requirements and deliver the product on time.
+              <h2>Software Development Solutions Provider</h2>
+              <p>
+                Metablock Technologies is your strategic partner in software
+                development, unlocking the full potential of your business. As a
+                leading software development provider, we specialize in
+                delivering cutting-edge solutions tailored to meet your specific
+                needs. Our team of skilled developers, known for their
+                proficiency and dedication, ensures the creation of robust and
+                customized software applications.
               </p>
 
               <p>
-                Our experience of leading Enterprise Mobile Application Development Company Increases our comprehends that what a business requires in its work progress to become a brand. With this specialization, we have crossed over many of happy clients with the successful project completion. Our skilled developer team undergo for deep researching and planning as we knew every project is different and requires special attention, which helps them a lot to bring out a bug-free app.
+                Our experience of leading Enterprise Software Development
+                Company Increases our comprehends that what a business requires
+                in its work progress to become a brand. With this
+                specialization, we have crossed over many of happy clients with
+                the successful project completion. Our skilled developer team
+                undergo for deep researching and planning as we knew every
+                project is different and requires special attention, which helps
+                them a lot to bring out a bug-free app.
               </p>
 
               <p>
+                Choose MetaBlock Technologies as your trusted software
+                development partner, where our expertise, dedication, and
+                personalized approach converge to propel your business to new
+                heights. Let us join forces to craft solutions that redefine
+                your digital landscape.
+              </p>
 
-                We are the right support elite to turn your ideas into realities beyond your expectation. We plan to deliver strategically configured and creatively crafted mobile application development services to hold a unique place in the app market that makes an exceptional footprint of your business among your respective customers.</p>
-
-              <button type="button" data-toggle="modal" data-target="#popup_form_modal" class="btn BtnPrimry TlkBtn">
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#popup_form_modal"
+                class="btn BtnPrimry TlkBtn"
+                onClick={() => navigate("/ContectUsForm")}
+              >
                 <span>Talk to our Experts</span>
                 <span>Talk to our Experts</span>
               </button>
-
             </div>
             <div className="Enterprise-right-div">
               <img src="/images/Who-we-are-bg3.webp" alt="" />
@@ -91,111 +129,93 @@ const ERPSoftware = () => {
         <section className="mid_section grey-bg">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Premium Mobile Application Development Services</h2>
+              <h2>Premium Software Development Services</h2>
               <div className="why_round"> </div>
             </div>
             <div className="row">
               <div className="col-sm-4 col-lg-4">
                 <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '10px 0px' }}>
-                  </div>
+                  <div
+                    className="spr_img_mob_dev testing_img"
+                    style={{ backgroundPosition: "10px 0px" }}
+                  ></div>
                   <div className="feature-content_1">
-                    <h2>Android App Development</h2>
-                    <p>The revolutionization of mobile application is evolving chiefly because of Android.
-                      We provide the trendy user interface and SDLC approach to reach your business to a higher level. We aim to render a unique With the seamless features in the application, we focus to deliver extreme quality outcome to our
-                      clients. </p>
-                  </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-app-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
-                  </div>
-                  {/* <p class="text-right" style="text-align: right;"><a href="https://www.osiztechnologies.com/android-app-development" class="rd_mr_btn">
-                <span>READ MORE</span><span class="inr_arrow"><i class="fa fa-angle-double-right"></i></span></a>
-                </p> */}
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '-65px 0px' }}>
-                  </div>
-                  <div className="feature-content_1">
-                    <h2>Android Game Development</h2>
-                    <p>We build dynamic android games with impressive, cheer up your android users. We
-                      are a one-stop-shop for Android game app development with our innovative strategy that ceaselessly related to recent technologies. We build and deliver amazing games with  such as Unreal Engine, Unity,
-                      Corona SDK, Lumberyard and Cocos2D-X.</p>
-                  </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-game-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '-142px 0px' }}>
-                  </div>
-                  <div className="feature-content_1">
-                    <h2>Android Tablet Development</h2>
-                    <p>In this digital era, Android popularity is exploding. The reason why people.
-                      growth remains the same. We enter into Android tablet development business to provide scalable and effective applications with fruitful features that range of user experience. Leverage our
-                      top-notch script to get the first-rate Android tablet development </p>
-                  </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-tablet-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '10px 0px' }}>
-                  </div>
-                  <div className="feature-content_1">
-                    <h2>Android App Development</h2>
-                    <p>The revolutionization of mobile application is evolving chiefly because of Android.
-                      We provide the trendy user interface and SDLC approach to reach your business to a higher level. We aim to render a unique With the seamless features in the application, we focus to deliver extreme quality outcome to our
-                      clients. </p>
-                  </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-app-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
-                  </div>
-                  {/* <p class="text-right" style="text-align: right;"><a href="https://www.osiztechnologies.com/android-app-development" class="rd_mr_btn">
-                <span>READ MORE</span><span class="inr_arrow"><i class="fa fa-angle-double-right"></i></span></a>
-                </p> */}
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '-65px 0px' }}>
-                  </div>
-                  <div className="feature-content_1">
-                    <h2>Android Game Development</h2>
-                    <p>We build dynamic android games with impressive, cheer up your android users. We
-                      are a one-stop-shop for Android game app development with our innovative strategy that ceaselessly related to recent technologies. We build and deliver amazing games with  such as Unreal Engine, Unity,
-                      Corona SDK, Lumberyard and Cocos2D-X.</p>
-                  </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-game-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div className="spr_img_mob_dev testing_img" style={{ backgroundPosition: '-142px 0px' }}>
-                  </div>
-                  <div className="feature-content_1">
-                    <h2>Android Tablet Development</h2>
-                    <p>In this digital era, Android popularity is exploding. The reason why people.
-                      growth remains the same. We enter into Android tablet development business to provide scalable and effective applications with fruitful features that range of user experience. Leverage our
-                      top-notch script to get the first-rate Android tablet development
+                    <h2>Custom Software Development</h2>
+                    <p>
+                      Custom software development involves creating unique,
+                      tailor-made solutions to address specific business needs.
+                      This service often includes designing and building
+                      applications, databases, and systems from the ground up,
+                      ensuring they align seamlessly with the client's
+                      requirements.
                     </p>
                   </div>
-                  <div className="mobile_app_services_btn_div">
-                    <a href="https://www.osiztechnologies.com/android-tablet-development" className="mobile_app_services_btn">READ MORE <i className="fa fa-angle-double-right" /></a>
+                  {/* <div className="mobile_app_services_btn_div">
+                    <a
+                      // href="https://www.osiztechnologies.com/android-app-development"
+                      className="mobile_app_services_btn"
+                    >
+                      READ MORE <i className="fa fa-angle-double-right" />
+                    </a>
+                  </div> */}
+                  {/* <p class="text-right" style="text-align: right;"><a href="https://www.osiztechnologies.com/android-app-development" class="rd_mr_btn">
+                <span>READ MORE</span><span class="inr_arrow"><i class="fa fa-angle-double-right"></i></span></a>
+                </p> */}
+                </div>
+              </div>
+              <div className="col-sm-4 col-lg-4">
+                <div className="feature_1 enterprise_mobile_app_services">
+                  <div
+                    className="spr_img_mob_dev testing_img"
+                    style={{ backgroundPosition: "-65px 0px" }}
+                  ></div>
+                  <div className="feature-content_1">
+                    <h2>Quality Assurance and Testing</h2>
+                    <p>
+                      Quality assurance and testing services are crucial for
+                      ensuring the reliability and functionality of software.
+                      This includes various types of testing such as functional
+                      testing, performance testing, security testing, and user
+                      acceptance testing.
+                    </p>
                   </div>
+                  {/* <div className="mobile_app_services_btn_div">
+                    <a
+                      href="https://www.osiztechnologies.com/android-game-development"
+                      className="mobile_app_services_btn"
+                    >
+                      READ MORE <i className="fa fa-angle-double-right" />
+                    </a>
+                  </div> */}
+                </div>
+              </div>
+              <div className="col-sm-4 col-lg-4">
+                <div className="feature_1 enterprise_mobile_app_services">
+                  <div
+                    className="spr_img_mob_dev testing_img"
+                    style={{ backgroundPosition: "-142px 0px" }}
+                  ></div>
+                  <div className="feature-content_1">
+                    <h2>Software Consulting</h2>
+                    <p>
+                      Software consulting services provide expert advice on
+                      technology selection, architecture design, and overall
+                      software solutions. Consultants assess existing systems
+                      and recommend improvements to optimize performance and
+                      efficiency.
+                    </p>
+                  </div>
+                  {/* <div className="mobile_app_services_btn_div">
+                    <a
+                      href="https://www.osiztechnologies.com/android-tablet-development"
+                      className="mobile_app_services_btn"
+                    >
+                      READ MORE <i className="fa fa-angle-double-right" />
+                    </a>
+                  </div> */}
                 </div>
               </div>
             </div>
-
           </div>
         </section>
         {/* <section >
@@ -203,13 +223,11 @@ const ERPSoftware = () => {
         </section> */}
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
-        <section className='OnDemandApp_section'>
+        <section className="OnDemandApp_section">
           <OnDemandAppSlider />
           {/* <CardSlider/> */}
         </section>
-        <section>
-          <DeliveringNative />
-        </section>
+
         <section className="section-heading mid_section-1">
           <div className="container">
             <div className="row">
@@ -218,11 +236,16 @@ const ERPSoftware = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-
-                <img src="images/techstack.png" width={'70%'} />
+              <div
+                className="col-md-12"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img src="images/techstack.png" width={"70%"} />
               </div>
-
             </div>
           </div>
         </section>
@@ -233,15 +256,14 @@ const ERPSoftware = () => {
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
-                  <h3>Our Step-By-Step Mobile App Development Process
-                  </h3>
+                <div className="cms text-center Process">
+                  <h3>Our Step-By-Step Software Development Process</h3>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/images/process-flow-new.svg" className='img-fluid' />
+                <img src="/images/process-flow-new.svg" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -251,7 +273,7 @@ const ERPSoftware = () => {
             <div className="row justify-content-center">
               <div className="col-md-12">
                 <div className="cms text-center">
-                  <h4>Why Choose Osiz For Mobile App Development?</h4>
+                  <h4>Why Choose Metablock For Software Development?</h4>
                 </div>
                 <div className="why_round" />
               </div>
@@ -259,26 +281,43 @@ const ERPSoftware = () => {
             <div className="row justify-content-center">
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-7px -541px' }}>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-7px -541px" }}
+                  ></div>
+                  <div className="why-img-title">
+                    Instant Sharing of Information
                   </div>
-                  <div className="why-img-title">Instant Sharing of Information</div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-96px -541px' }} />
-                  <div className="why-img-title">Simplify the process and reduce complexity</div>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-96px -541px" }}
+                  />
+                  <div className="why-img-title">
+                    Simplify the process and reduce complexity
+                  </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-191px -541px' }} />
-                  <div className="why-img-title">Instant respond to opportunities</div>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-191px -541px" }}
+                  />
+                  <div className="why-img-title">
+                    Instant respond to opportunities
+                  </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-291px -541px' }} />
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-291px -541px" }}
+                  />
                   <div className="why-img-title">Increase productivity</div>
                 </div>
               </div>
@@ -286,62 +325,55 @@ const ERPSoftware = () => {
             <div className="row justify-content-center">
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-10px -627px' }} />
-                  <div className="why-img-title">Enhance service quality and responsibility</div>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-10px -627px" }}
+                  />
+                  <div className="why-img-title">
+                    Enhance service quality and responsibility
+                  </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-98px -627px' }} />
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-98px -627px" }}
+                  />
                   <div className="why-img-title">Less operational cost</div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-181px -627px' }} />
-                  <div className="why-img-title">Implementing Unique strategies</div>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-181px -627px" }}
+                  />
+                  <div className="why-img-title">
+                    Implementing Unique strategies
+                  </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="why-cntnt">
-                  <div className="spr_img_mob_dev" style={{ backgroundPosition: '-274px -627px' }} />
-                  <div className="why-img-title">Agile App Development Process</div>
+                  <div
+                    className="spr_img_mob_dev"
+                    style={{ backgroundPosition: "-274px -627px" }}
+                  />
+                  <div className="why-img-title">
+                    Agile App Development Process
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section className="mid_section grey-bg">
-          <div className="container">
-
-            <div className="section-heading text-center">
-              <h3>Hire Our Skilled Mobile App Developers</h3>
-              <div className="why_round"> </div>
-            </div>
-            <div className="row-1" style={{ display: 'flex' }}>
-              <div className="col-sm-6 col-md-6 col-lg-6">
-                <p className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
-                  by our pool of developers who are strong in this platform. To develop strong mobile application, hire our experienced mobile application developers, who are specialists in many programming languages such as Java, Python,
-                  PHP, Swift, and Objective-C</p>
-                <div className="text-center">
-                  <a href="https://www.osiztechnologies.com/request-for-quotation" className="expert-btn" style={{ margin: 0 }}>Request for Quote</a>
-                </div>
-              </div>
-              <div>
-                <img src="/images/coding1-removebg-preview.png" alt="" />
-
-              </div>
-            </div>
-          </div>
-
         </section>
         <section>
           <SimilarFile />
         </section>
       </div>
-
     </>
-  )
-}
+  );
+};
 
-export default ERPSoftware
+export default ERPSoftware;

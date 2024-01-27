@@ -1,10 +1,10 @@
-import React from 'react'
-import './AboutUsWhoWeAre.css'
+import React from "react";
+import "./AboutUsWhoWeAre.css";
 
 const AboutUsWhoWeAre = () => {
-    return (
-        <>
-            {/* <section className="who_we_are_sec">
+  return (
+    <>
+      {/* <section className="who_we_are_sec">
   <div className="container">
     <div className="row justify-content-center align-items-center">
       <div className="col-lg-3 col-12 pr-lg-0">
@@ -28,26 +28,43 @@ const AboutUsWhoWeAre = () => {
   </div>
 </section> */}
 
-            <div className='main-aboutus-div'>
-                <div className="container-div">
-                    <div className='heading-about-us'>
-                        <h1>WHO WE ARE ?</h1>
-                    </div>
-                    <div className='about-us-p' >
-                        <p className="contents">Osiz technologies Pvt.Limited is one of the initially established companies to offer services for blockchain and cryptocurrency development. With the promise of rising blockchain technologies, it was introduced in early 2009.
-                            Clients will receive cutting-edge solutions from us due to our unwavering experience and comprehensive understanding in the sector. With our assistance, various clients from all around the world were able to launch their
-                            blockchain-based businesses and attain their goals.</p>
-                        <p className="contents">Osiz technologies Pvt.Limited is one of the initially established companies to offer services for blockchain and cryptocurrency development. With the promise of rising blockchain technologies, it was introduced in early 2009.
-                            Clients will receive cutting-edge solutions from us due to our unwavering experience and comprehensive understanding in the sector. With our assistance, various clients from all around the world were able to launch their
-                            blockchain-based businesses and attain their goals.</p>
-                        <p className="contents">Osiz technologies Pvt.Limited is one of the initially established companies to offer services for blockchain and cryptocurrency development. With the promise of rising blockchain technologies, it was introduced in early 2009.
-                            Clients will receive cutting-edge solutions from us due to our unwavering experience and comprehensive understanding in the sector. With our assistance, various clients from all around the world were able to launch their
-                            blockchain-based businesses and attain their goals.</p>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
+      <div className="main-aboutus-div">
+        <div className="container-div">
+          <div className="heading-about-us">
+            <h1>WHO WE ARE ?</h1>
+          </div>
+          <div className="about-us-p">
+            <p className="contents">
+              MetaBlock Technologies specializes in a diverse array of services,
+              catering to the dynamic needs of modern businesses. Our expertise
+              encompasses web development, ensuring the creation of robust and
+              user-friendly online platforms. We excel in crafting innovative
+              and intuitive mobile applications, providing seamless experiences
+              across various devices. Additionally, our proficiency extends to
+              game development, where we merge creativity with cutting-edge
+              technology to deliver engaging and immersive gaming experiences.
+            </p>
+            <p className="contents">
+              In the realm of software development, MetaBlock Technologies
+              stands out by delivering tailored solutions that align perfectly
+              with your business objectives. Our commitment to staying at the
+              forefront of technological advancements is evident in our
+              blockchain development services, where we leverage the power of
+              decentralized technologies to transform ideas into reality.
+            </p>
+            <p className="contents">
+              At MetaBlock Technologies, we don't just offer services; we
+              provide holistic solutions that empower businesses to thrive in
+              the digital landscape. Whether you are looking to establish a
+              strong online presence, launch a mobile app, create captivating
+              games, develop customized software, or explore the potential of
+              blockchain, we are your dedicated partner in achieving success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default AboutUsWhoWeAre
+export default AboutUsWhoWeAre;

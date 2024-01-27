@@ -37,6 +37,7 @@
     color: #00FFFF;
     font-size: 95px;
     text-transform: uppercase;
+    margin-top: 100px !important;
 }
 
 #metaverse_dev_main .metaverse_dev_banner .cus_contents {
@@ -175,7 +176,7 @@
     margin: 25px;
 }
 
-#metaverse_dev_main .metaverse_dev_facts .sub_title {
+#metaverse_dev_main .metaverse_dev_facts .sub_title-15 {
     color: #fff;
     font-size: 16px;
     font-weight: 300;
@@ -221,7 +222,7 @@
     background: unset;
 }
 
-#metaverse_dev_main .metaverse_dev_benefits .sub_title {
+#metaverse_dev_main .metaverse_dev_benefits .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -229,7 +230,7 @@
     font-family: "Urbanist", sans-serif;
 }
 
-#metaverse_dev_main .metaverse_dev_benefits .sub_contents {
+#metaverse_dev_main .metaverse_dev_benefits .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -329,7 +330,7 @@
     border-radius: 5px;
 }
 
-#metaverse_dev_main .metaverse_dev_platform .sub_title {
+#metaverse_dev_main .metaverse_dev_platform .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -339,7 +340,7 @@
     padding-top: 10px;
 }
 
-#metaverse_dev_main .metaverse_dev_platform .sub_contents {
+#metaverse_dev_main .metaverse_dev_platform .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -459,7 +460,7 @@
     z-index: 1;
 }
 
-#metaverse_dev_main .metaverse_dev_features .sub_title {
+#metaverse_dev_main .metaverse_dev_features .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -469,7 +470,7 @@
     padding-top: 30px;
 }
 
-#metaverse_dev_main .metaverse_dev_features .sub_contents {
+#metaverse_dev_main .metaverse_dev_features .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -528,7 +529,7 @@
     margin-top: 20px;
 }
 
-#metaverse_dev_main .metaverse_dev_business .sub_title {
+#metaverse_dev_main .metaverse_dev_business .sub_title-15 {
     background: linear-gradient(120.45deg, #FA00FF 10.65%, #00FFFF 97.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -542,7 +543,7 @@
     padding-top: 5px;
 }
 
-#metaverse_dev_main .metaverse_dev_business .sub_contents {
+#metaverse_dev_main .metaverse_dev_business .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -578,7 +579,7 @@
     text-align: center;
 }
 
-#metaverse_dev_main .metaverse_dev_services .sub_title {
+#metaverse_dev_main .metaverse_dev_services .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -588,7 +589,7 @@
     line-height: 1.5;
 }
 
-#metaverse_dev_main .metaverse_dev_services .sub_contents {
+#metaverse_dev_main .metaverse_dev_services .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -715,7 +716,7 @@
     padding: 10px;
 }
 
-#metaverse_dev_main .metaverse_dev_top .sub_title {
+#metaverse_dev_main .metaverse_dev_top .sub_title-15 {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -784,7 +785,7 @@
     box-shadow: -3px 3px 0px #00FFFF;
 }
 
-#metaverse_dev_main .metaverse_dev_model .sub_title {
+#metaverse_dev_main .metaverse_dev_model .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -793,7 +794,7 @@
     text-align: center;
 }
 
-#metaverse_dev_main .metaverse_dev_model .sub_contents {
+#metaverse_dev_main .metaverse_dev_model .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -849,7 +850,7 @@
     background: #00ffff17;
 }
 
-#metaverse_dev_main .metaverse_dev_whychoose .sub_title {
+#metaverse_dev_main .metaverse_dev_whychoose .sub_title-15 {
     color: #00FFFF;
     font-size: 20px;
     font-weight: 700;
@@ -858,7 +859,7 @@
     text-align: center;
 }
 
-#metaverse_dev_main .metaverse_dev_whychoose .sub_contents {
+#metaverse_dev_main .metaverse_dev_whychoose .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -1096,10 +1097,10 @@
         text-align: center;
         padding: 20px !important;
     }
-    #metaverse_dev_main .metaverse_dev_process .sub_contents {
+    #metaverse_dev_main .metaverse_dev_process .sub_contents-15 {
         margin-left: 0px !important;
     }
-    #metaverse_dev_main .metaverse_dev_process .sub_title {
+    #metaverse_dev_main .metaverse_dev_process .sub_title-15 {
         font-size: 20px !important;
     }
     #metaverse_dev_main .metaverse_dev_process .process_numsec {
@@ -1111,16 +1112,18 @@
     #metaverse_dev_main .metaverse_dev_banner {
         display: flex;
         align-items: center;
-        height: 500px;
+        height: 100vh !important;
         padding: 50px 0px;
     }
     #metaverse_dev_main .metaverse_dev_banner .title {
         font-size: 25px !important;
         line-height: 1.5;
-        margin-top: 80px;
+        margin-top: 150px !important;
+        margin-right: 150px !important;
     }
     #metaverse_dev_main .metaverse_dev_banner .cus_title {
         font-size: 45px;
+
     }
     #metaverse_dev_main .metaverse_dev_banner svg text {
         font-size: 200px !important;
@@ -1276,7 +1279,7 @@
     background: linear-gradient(125deg, rgba(250, 0, 255, 1), rgba(0, 255, 255, 1));
 }
 
-#metaverse_dev_main .metaverse_dev_techstack .sub_title {
+#metaverse_dev_main .metaverse_dev_techstack .sub_title-15 {
     color: #fff;
     font-size: 17px;
     font-weight: 500;
@@ -1353,7 +1356,7 @@
     margin: 0 auto;
 }
 
-#metaverse_dev_main .metaverse_dev_process .sub_title {
+#metaverse_dev_main .metaverse_dev_process .sub_title-15 {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -1363,7 +1366,7 @@
     padding-top: 10px;
 }
 
-#metaverse_dev_main .metaverse_dev_process .sub_contents {
+#metaverse_dev_main .metaverse_dev_process .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -1451,7 +1454,7 @@
     text-align: center;
 }
 
-#metaverse_dev_main .metaverse_dev_blckchn .sub_title {
+#metaverse_dev_main .metaverse_dev_blckchn .sub_title-15 {
     background: linear-gradient(120.45deg, #FA00FF 10.65%, #00FFFF 97.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1465,7 +1468,7 @@
     padding-top: 5px;
 }
 
-#metaverse_dev_main .metaverse_dev_blckchn .sub_contents {
+#metaverse_dev_main .metaverse_dev_blckchn .sub_contents-15 {
     font-size: 16px;
     color: #fff;
     font-weight: 300;

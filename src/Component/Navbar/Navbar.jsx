@@ -3,302 +3,400 @@ import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import YourComponent from "./Nav-button";
 import ContactForm from "./Nav-button";
+import TemporaryDrawer from "./ResponsiveNavbar";
+import ResponsiveDrawer from "../Sidebar/Sidebar";
 
 const Navbar = () => {
-
   const navigate = useNavigate();
 
   const WebData = [
-    { name: "Static Website" },
-    { name: "Dynamic Website" },
-    { name: "E-Commerce Website Single & Multi Wendor" },
+    {
+      name: "Static Website",
+      path: "/Static",
+    },
+    {
+      name: "Dynamic Website",
+      path: "/DynamicWebsite",
+    },
+    {
+      name: "E-Commerce Website Single & Multi Wendor",
+      path: "/Ecommerce",
+    },
   ];
 
   const SoftData = [
     {
       name: "ERP Software",
-      path: "/ERPSoftware"
+      path: "/ERPSoftware",
     },
     {
       name: "SAAS Software",
-      path: "/SAASSoftware"
+      path: "/SAASSoftware",
     },
     {
       name: "Warehouse Managment Software",
-      path: "/WarehouseManagmentSoftware"
+      path: "/WarehouseManagmentSoftware",
     },
     {
       name: "HRMS Software",
-      path: "/HRMSSoftware"
+      path: "/HRMSSoftware",
     },
     {
       name: "Inventory Managment Software",
-      path: "/InventoryManagmentSoftware"
+      path: "/InventoryManagmentSoftware",
     },
     {
       name: "Accounting & Billing Software",
-      path: "/AccountingBillingSoftware"
+      path: "/AccountingBillingSoftware",
     },
     {
       name: "POS System Software",
-      path: "/POSSystemSoftware"
+      path: "/POSSystemSoftware",
     },
     {
       name: "Employee Tracking Software",
-      path: "/EmployeeTrackingSoftware"
+      path: "/EmployeeTrackingSoftware",
     },
     {
       name: "Attendance System Software",
-      path: "/AttendanceSystemSoftware"
+      path: "/AttendanceSystemSoftware",
     },
     {
       name: "Library Managment System",
-      path: "/LibraryManagmentSystem"
+      path: "/LibraryManagmentSystem",
     },
     {
       name: "LMS With Live Class Software",
-      path: "/LMSWithLiveClassSoftware"
+      path: "/LMSWithLiveClassSoftware",
     },
     {
       name: "University Managment  Software",
-      path: "/UniversityManagmentSoftware"
+      path: "/UniversityManagmentSoftware",
     },
     {
       name: "Quiz System Software",
-      path: "/QuizSystemSoftware"
+      path: "/QuizSystemSoftware",
     },
   ];
 
   const SoftData1 = [
     {
       name: "Astrology Software",
-      path: "/AstrologySoftware"
+      path: "/AstrologySoftware",
     },
     {
       name: "Travel Booking Software",
-      path: "/TravelBookingSoftware"
+      path: "/TravelBookingSoftware",
     },
     {
       name: "Matrimonial Software",
-      path: "/MatrimonialSoftware"
+      path: "/MatrimonialSoftware",
     },
     {
       name: "Restaurant Managment System Software",
-      path: "/RestaurantManagmentSystemSoftware"
+      path: "/RestaurantManagmentSystemSoftware",
     },
     {
       name: "Hotel Managment Software",
-      path: "/HotelManagmentSoftware"
+      path: "/HotelManagmentSoftware",
     },
     {
       name: "Event management Software",
-      path: "/EventmanagementSoftware"
+      path: "/EventmanagementSoftware",
     },
     {
       name: "Hospital Managment System Software",
-      path: "/HospitalManagmentSystemSoftware"
+      path: "/HospitalManagmentSystemSoftware",
     },
     {
       name: "Real state Software",
-      path: "/RealstateSoftware"
+      path: "/RealstateSoftware",
     },
     {
       name: "Clinic Managment System Software",
-      path: "/ClinicManagmentSystemSoftware"
+      path: "/ClinicManagmentSystemSoftware",
     },
     {
       name: "MLM Software",
-      path: "/MLMSoftware"
+      path: "/MLMSoftware",
     },
     {
       name: "Trading Software",
-      path: "/TradingSoftware"
+      path: "/TradingSoftware",
     },
     {
       name: "Job Portal Software",
-      path: "/JobPortalSoftware"
+      path: "/JobPortalSoftware",
     },
   ];
 
   const AppData = [
-
     {
       name: "Cab Booking Apps",
-      path: "/CabBookingApps"
+      path: "/CabBookingApps",
     },
     {
       name: "Grocery Apps",
-      path: "/GroceryApps"
+      path: "/GroceryApps",
     },
     {
       name: "Travelling Apps",
-      path: "/TravellingApps"
+      path: "/TravellingApps",
     },
     {
       name: "Chatting Apps",
-      path: "/ChattingApps"
+      path: "/ChattingApps",
     },
     {
       name: "Fitness Apps",
-      path: "/FitnessApps"
+      path: "/FitnessApps",
     },
     {
       name: "Rental Apps",
-      path: "/RentalApps"
+      path: "/RentalApps",
     },
     {
       name: "Dating Apps",
-      path: "/DatingApps"
+      path: "/DatingApps",
     },
     {
       name: "Astrology Apps",
-      path: "/AstrologyApps"
+      path: "/AstrologyApps",
     },
   ];
 
   const AppData1 = [
     {
       name: "Food delivery Apps",
-      path: "/FooddeliveryApps"
+      path: "/FooddeliveryApps",
     },
     {
       name: "Social Media Apps",
-      path: "/SocialMediaApps"
+      path: "/SocialMediaApps",
     },
     {
       name: "Learning Managment Apps",
-      path: "/LearningManagmentApps"
+      path: "/LearningManagmentApps",
     },
     {
       name: "Ecommerce Apps",
-      path: "/EcommerceApps"
+      path: "/EcommerceApps",
     },
     {
       name: "Multivendor Home Service Apps",
-      path: "/MultivendorHomeServiceApps"
+      path: "/MultivendorHomeServiceApps",
     },
   ];
 
   const MetaData = [
     {
       name: "Metaverse Development",
-      path: "/MetaverseDevelopment"
+      path: "/MetaverseDevelopment",
     },
     {
       name: "Metaverse Game Development",
-      path: "/MetaverseGameDevelopment"
+      path: "/MetaverseGameDevelopment",
     },
     {
       name: "Metaverse NFT Marketplace Development",
-      path: "/MetaverseNFTMarketplaceDevelopment"
+      path: "/MetaverseNFTMarketplaceDevelopment",
     },
     {
       name: "Metaverse Virtual Showroom  Development",
-      path: "/MetaverseVirtualShowroomDevelopment"
+      path: "/MetaverseVirtualShowroomDevelopment",
     },
     {
       name: "Metaverse Event Platform Development",
-      path: "/MetaverseEventPlatformDevelopment"
+      path: "/MetaverseEventPlatformDevelopment",
     },
     {
       name: "Metaverse Avatar Development",
-      path: "/MetaverseAvatarDevelopment"
+      path: "/MetaverseAvatarDevelopment",
     },
   ];
 
   const MetaData1 = [
     {
       name: "Metaverse Social Media Platform Development",
-      path: "/MetaverseSocialMediaPlatformDevelopment"
+      path: "/MetaverseSocialMediaPlatformDevelopment",
     },
     {
       name: "Metaverse Real Estate Development",
-      path: "/MetaverseRealEstateDevelopment"
+      path: "/MetaverseRealEstateDevelopment",
     },
     {
       name: "Metaverse Virtual Land Development",
-      path: "/MetaverseVirtualLandDevelopment"
+      path: "/MetaverseVirtualLandDevelopment",
     },
     {
       name: "Metaverse Launchpad Development",
-      path: "/MetaverseLaunchpadDevelopment"
+      path: "/MetaverseLaunchpadDevelopment",
     },
   ];
 
   const BlockChain = [
-    { name: "Smart Contract Developemnt" },
-    { name: "Private / Public Blockchain Development" },
-    { name: "DAO Blockchain Developmnent" },
-    { name: "Blockchain in SupplyChain" },
-    { name: "Blockchain in Voting " },
-    { name: "Blockchain in Live Aution" },
-    { name: "Blockchain in Document Verifiction" },
-    { name: "Blockchain in  Identity Verifiction" },
+    {
+      name: "Smart Contract Developemnt",
+      path: "/SmartContractDevelopemnt",
+    },
+    {
+      name: "Private / Public Blockchain Development",
+      path: "/Private/PublicBlockchainDevelopment",
+    },
+    {
+      name: "DAO Blockchain Developmnent",
+      path: "/DAOBlockchainDevelopmnent",
+    },
+    {
+      name: "Blockchain in SupplyChain",
+      path: "/BlockchainSupply",
+    },
+    {
+      name: "Blockchain in Voting ",
+      path: "/BlockchainVoting",
+    },
+    {
+      name: "Blockchain in Live Aution",
+      path: "/BlockchainLiveAution",
+    },
+    {
+      name: "Blockchain in Document Verifiction",
+      path: "/BlockchainDocument",
+    },
+    {
+      name: "Blockchain in  Identity Verifiction",
+      path: "/BlockchainIdentityVerifiction",
+    },
   ];
 
   const Wallet = [
-    { name: "Trust Wallet Clone Development " },
-    { name: "Wallet Connect Clone Development" },
-    { name: "White Paper Writting Services" },
+    {
+      name: "Trust Wallet Clone Development ",
+      path: "/TrustWalletCloneDevelopment",
+    },
+    { name: "Wallet Connect Clone Development", path: "/" },
+    {
+      name: "White Paper Writting Services",
+      path: "/WhitePaperWrittingServices",
+    },
   ];
 
   const Token = [
-    { name: "Semi -Fungible Token Development" },
-    { name: "Binanace Smart Chain BEP20 Token Development" },
-    { name: "Ethereum Token Development" },
+    {
+      name: "Semi -Fungible Token Development",
+      path: "/SemiFungibleTokenDevelopment",
+    },
+    {
+      name: "Binanace Smart Chain BEP20 Token Development",
+      path: "/BinanaceSmartChainBEP20TokenDevelopment",
+    },
+    {
+      name: "Ethereum Token Development",
+      path: "/EthereumTokenDevelopment",
+    },
   ];
 
   const DEX = [
-    { name: "Pancakeswap Exchange Clone Development" },
-    { name: "Uniswap Exchange Clone Developemnt" },
-    { name: "SushiSwap Exchange Clone Developement" },
-    { name: "White Label Exchange Development" },
+    {
+      name: "Pancakeswap Exchange Clone Development",
+      path: "/PancakeswapExchange",
+    },
+    {
+      name: "Uniswap Exchange Clone Developemnt",
+      path: "/UniswapExchange",
+    },
+    {
+      name: "SushiSwap Exchange Clone Developement",
+      path: "/SushiSwapExchange",
+    },
+    {
+      name: "White Label Exchange Development",
+      path: "/WhiteLabel",
+    },
   ];
 
   const Defi = [
-    { name: "DeFi Staking Platform Development" },
-    { name: "DeFi Token Development" },
-    { name: "DeFI Wallet Development" },
-    { name: "DeFi Smart Contract Development" },
-    { name: "DeFi DApps Development" },
-    { name: "DeFi Insurance Development" },
+    {
+      name: "DeFi Staking Platform Development",
+      path: "/DefiStaking",
+    },
+    { name: "DeFi Token Development", path: "/DeFiTokenDevelopment" },
+    { name: "DeFI Wallet Development", path: "/DeFiWalletDevelopment" },
+    {
+      name: "DeFi Smart Contract Development",
+      path: "/DeFiSmartContractDevelopment",
+    },
+
+    { name: "DeFi DApps Development", path: "/DeFiDAppsDevelopment" },
+    { name: "DeFi Insurance Development", path: "/DeFiInsuranceDevelopment" },
   ];
 
   const NFT = [
-    { name: "NFT Marketplace Development" },
-    { name: "NFT Token Development" },
-    { name: "NFT Crosschain Platfrom Development" },
-    { name: "NFT Minting Development" },
-    { name: "NFT Art Marketplace Development" },
-    { name: "NFT Music Marketplace Development" },
-    { name: "NFT Fantasy Sports Platform Development" },
-    { name: "NFT Lending Platform Development" },
-    { name: "Binance NFT Marketplace Development" },
-    { name: "Polygon NFT Marketplace Development" },
+    {
+      name: "NFT Token Development",
+      path: "/NFTToken",
+    },
+    {
+      name: "NFT Marketplace Development",
+      path: "/NFTMarketplace",
+    },
+    {
+      name: "NFT Crosschain Platfrom Development",
+      path: "/NFTCrosschainPlatfromDevelopment",
+    },
+    { name: "NFT Minting Development", path: "/NFTMintingDevelopment" },
+    {
+      name: "NFT Art Marketplace Development",
+      path: "/NFTArtMarketplaceDevelopment",
+    },
+    {
+      name: "NFT Music Marketplace Development",
+      path: "/NFTMusicMarketplaceDevelopment",
+    },
+    {
+      name: "NFT Fantasy Sports Platform Development",
+      path: "/NFTFantasySportsPlatformDevelopment",
+    },
+    { name: "NFT Lending Platform Development", path: "/NFTLendingPlatform" },
+    { name: "Binance NFT Marketplace Development", path: "/BinanceNFT" },
+    { name: "Polygon NFT Marketplace Development", path: "/PolygonNFT" },
   ];
 
   const Launchpad = [
-    { name: "GameFi Launchapd Developemnt" },
-    { name: "Lunchpad Development" },
+    {
+      name: "GameFi Launchapd Developemnt",
+      path: "/GameFiLaunchapd",
+    },
+    {
+      name: "Lunchpad Development",
+      path: "/LunchpadDevelopment",
+    },
   ];
 
   return (
     <div>
-      <header className="HddrBg" >
-        <nav style={{ display: "flex",cursor:"pointer" }} className="navbar navbar-expand-lg">
+      <header className="HddrBg">
+        <nav
+          style={{
+            display: "flex",
+            cursor: "pointer",
+            padding: "10px 0px 10px 0px",
+          }}
+          className="navbar navbar-expand-lg"
+        >
           <div className="container-fluid">
             <div className="logo_header">
-              <a  className>
+              <a onClick={() => navigate("/")} className>
                 <img
-                   onClick={()=> navigate('/')}
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/osiz-white-logo-gif.gif"
+                  src="/NewImages/logo2.png"
                   className="img-fluid mbl_res_logo"
                   alt="osiz"
                   title="osiz"
-                  width="80%"
+                  style={{ margin: "0px 100px 0px 20px" , width:"120px" }}
                 />
               </a>
             </div>
+
             {/* <button type="button" onclick="this.classList.toggle('active')" className="plate navbar-toggle CollBTn collapsed sm-only ui" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
           <svg className viewBox="0 13 75 75" xmlns="http://www.w3.org/2000/svg" onclick="this.classList.toggle('active')">
             <path className="line line_1" d="M0 40h62c13 0 6 28-4 18L35 35" />
@@ -309,14 +407,18 @@ const Navbar = () => {
             <div
               className="CllpsMenu collapse navbar-collapse w-100 "
               id="navbarNavAltMarkup"
-              style={{ marginLeft: "50px", marginTop:"-20px" }}
+              style={{ marginLeft: "50px", marginTop: "-20px" }}
             >
               <ul className="navbar-nav HddrLnks HdrSroll navMnuMn w-100">
                 {/* ----------------------------------------navbar starts now -------------------------------------------------------*/}
 
                 {/* -------------------------- Website Development------------------------------------- */}
                 <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                  <a
+                    onClick={() => navigate("/WbsiteDevelopment")}
+                    className="nav-link"
+                    href="#"
+                  >
                     Website
                   </a>
                   <div className="sub-menu">
@@ -325,7 +427,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {WebData.map((item, index) => (
-                              <li key={index}>
+                              <li
+                                onClick={() => navigate(item.path)}
+                                key={index}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -353,7 +458,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {SoftData.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -369,7 +477,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {SoftData1.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -388,7 +499,10 @@ const Navbar = () => {
                 {/* --------------------------------Main Blockchain development -------------------------------------*/}
 
                 <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                  <a
+                    onClick={() => navigate("/MainBlockchain")}
+                    className="nav-link"
+                  >
                     Blockchain
                   </a>
                   <div className="sub-menu" style={{ width: "250px" }}>
@@ -401,7 +515,6 @@ const Navbar = () => {
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
-                                href="#"
                                 id="Company_navbarDropdown"
                                 role="button"
                                 data-toggle="dropdown"
@@ -418,7 +531,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {BlockChain.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             target="_blank"
@@ -471,7 +587,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Launchpad.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -515,7 +634,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Wallet.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -560,7 +682,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Token.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -604,7 +729,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {Defi.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -648,7 +776,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {NFT.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -693,7 +824,10 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       {DEX.map((item, index) => (
-                                        <li key={index}>
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
                                           <a
                                             //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
@@ -727,7 +861,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {AppData.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -743,7 +880,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {AppData1.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -771,7 +911,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {MetaData.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -787,7 +930,10 @@ const Navbar = () => {
                         <div>
                           <ul>
                             {MetaData1.map((item, index) => (
-                              <li key={index} onClick={() => navigate(item.path)}>
+                              <li
+                                key={index}
+                                onClick={() => navigate(item.path)}
+                              >
                                 <a
                                   // href="#"
                                   target="_blank"
@@ -1602,7 +1748,10 @@ const Navbar = () => {
                 {/* -------------------------- Game Development ------------------------------------- */}
 
                 <li className="nav-item menu_desk">
-                  <a className="nav-link" href="#">
+                  <a
+                    onClick={() => navigate("/GeneralGamesDevelopment")}
+                    className="nav-link"
+                  >
                     Game
                   </a>
                   <div className="sub-menu">
@@ -1610,7 +1759,11 @@ const Navbar = () => {
                       <div className="col-lg-6">
                         <div>
                           <ul>
-                            <li>
+                            <li
+                              onClick={() =>
+                                navigate("/GeneralGamesDevelopment")
+                              }
+                            >
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1619,7 +1772,7 @@ const Navbar = () => {
                                 General Games Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/CasinoGames")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1628,7 +1781,7 @@ const Navbar = () => {
                                 Casino Games Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/MetaverseGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1637,7 +1790,7 @@ const Navbar = () => {
                                 Metaverse Game Development
                               </a>
                             </li>
-                            <li>
+                            <li onClick={() => navigate("/BlockchainGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1686,17 +1839,16 @@ const Navbar = () => {
                                   <div className="col-lg-12">
                                     <div>
                                       <li>
-                                        <a
-                                            onClick={()=> navigate('/Aboutus')}
-                                        >
+                                        <a onClick={() => navigate("/Aboutus")}>
                                           About Us
                                         </a>
                                       </li>
 
                                       <li>
                                         <a
-                                      onClick={()=> navigate('/Announcement')}
-
+                                          onClick={() =>
+                                            navigate("/Announcement")
+                                          }
                                         >
                                           Announcement{" "}
                                         </a>
@@ -1711,13 +1863,18 @@ const Navbar = () => {
                                       </li>
                                       <li>
                                         <a
-                                          onClick={()=> navigate('/Celebrations')}
-
+                                          onClick={() =>
+                                            navigate("/Celebrations")
+                                          }
                                         >
                                           Celeberations
                                         </a>
                                       </li>
-                                      <li onClick={()=>navigate('/TermAndCondition')}>
+                                      <li
+                                        onClick={() =>
+                                          navigate("/TermAndCondition")
+                                        }
+                                      >
                                         <a
                                           // href="https://www.osiztechnologies.com/terms-and-conditions"
                                           target="_blank"
@@ -1725,7 +1882,11 @@ const Navbar = () => {
                                           Terms and Conditions
                                         </a>
                                       </li>
-                                      <li onClick={()=>navigate('/PrivacyPolicy')}>
+                                      <li
+                                        onClick={() =>
+                                          navigate("/PrivacyPolicy")
+                                        }
+                                      >
                                         <a
                                           // href="https://www.osiztechnologies.com/payment-refund-policy"
                                           target="_blank"
@@ -1778,31 +1939,21 @@ const Navbar = () => {
                               </div>
                             </div> */}
 
-                            <li onClick={() => navigate('/ContectUsForm')}>
-                              <a
-                                target="_blank"
-                              >
-                                Contact us
-                              </a>
+                            <li onClick={() => navigate("/ContectUsForm")}>
+                              <a target="_blank">Contact us</a>
                             </li>
-                            <li 
-                             onClick={() => navigate('./News')}
-                            >
+                            <li onClick={() => navigate("/News")}>
                               <a
-                                // href="https://www.osiztechnologies.com/news"
-                                // target="_blank"
+                              // href="https://www.osiztechnologies.com/news"
+                              // target="_blank"
                               >
                                 News
                               </a>
                             </li>
-                           
+
                             {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
-                            <li onClick={()=>navigate('/InsightsFAQ')}>
-                              <a
-                                target="_blank"
-                              >
-                                FAQ
-                              </a>
+                            <li onClick={() => navigate("/InsightsFAQ")}>
+                              <a target="_blank">FAQ</a>
                             </li>
                             {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
                             {/* <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li> */}
@@ -1830,13 +1981,8 @@ const Navbar = () => {
                   </a>
                   <div className="dropdown-menu">
                     <ul>
-                      <li onClick={()=>navigate('/Blog')}>
-                        <a
-                          
-                          target="_blank"
-                        >
-                          Blogs
-                        </a>
+                      <li onClick={() => navigate("/Blog")}>
+                        <a target="_blank">Blogs</a>
                       </li>
                       <li>
                         <a
@@ -1864,7 +2010,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-                      
+
                       {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
                       {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
                       {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
@@ -1875,244 +2021,233 @@ const Navbar = () => {
 
                 {/* ---------------Blogs-------------------- */}
 
-                <li onClick={()=>navigate('/Blog')} className="nav-item menu_desk">
-                  <a
-                    className="nav-link"
-                   
-                    target="_blank"
-                  >
+                <li
+                  onClick={() => navigate("/Blog")}
+                  className="nav-item menu_desk"
+                >
+                  <a className="nav-link" target="_blank">
                     Blogs
                   </a>
                 </li>
 
                 {/* ---------------Case studies-------------------- */}
 
-                <li className="nav-item menu_desk" onClick={()=>navigate('/CaseStudy')}>
+                <li
+                  className="nav-item menu_desk"
+                  onClick={() => navigate("/CaseStudy")}
+                >
                   <a
                     className="nav-link"
                     // href="https://www.osiztechnologies.com/blog"
                     target="_blank"
                   >
-                    Case Studies
-                  </a>
-                </li>
+                    <li
+                      className="nav-item menu_desk"
+                      style={{ width: "150px", marginTop: "-37px" }}
+                    >
+                      <a className="nav-link" target="_blank">
+                        Case Studies
+                      </a>
+                    </li>
 
-                {/* ----------------------------------- */}
+                    {/* ----------------------------------- */}
 
-                <li className="nav-item dropdown menu_res">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Company
-                  </a>
-                  <div className="dropdown-menu compyMenuResHight">
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/about-us"
-                          target="_blank"
-                        >
-                          About Us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/osiz-company-profile-brochure.pdf?v1"
-                          target="_blank"
-                        >
-                          Company Profile
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/osiz-pitchdeck.pdf?v1"
-                          target="_blank"
-                        >
-                          Pitch Deck
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/vision-mission"
-                          target="_blank"
-                        >
-                          Vision &amp; Mission
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/infrastructure"
-                          target="_blank"
-                        >
-                          Infrastructure
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/why-osiz"
-                          target="_blank"
-                        >
-                          Why Osiz
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/benefits"
-                          target="_blank"
-                        >
-                          Benefits
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/life-at-osiz"
-                          target="_blank"
-                        >
-                          Life@Osiz
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/quality-policy"
-                          target="_blank"
-                        >
-                          Quality Policy
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/events"
-                          target="_blank"
-                        >
-                          Events
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/celebrations"
-                          target="_blank"
-                        >
-                          Celeberations
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/business-model"
-                          target="_blank"
-                        >
-                          Business Model
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/our-digital-lab"
-                          target="_blank"
-                        >
-                          Our Lab
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/development-process"
-                          target="_blank"
-                        >
-                          Development Process
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/our-expertise"
-                          target="_blank"
-                        >
-                          Our Expertise
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          // href="https://www.osiztechnologies.com/terms-and-conditions"
-                          target="_blank"
-                        >
-                          Terms and Conditions
-                        </a>
-                      </li>
-                      <li >
-                        <a
-                          // href="https://www.osiztechnologies.com/payment-refund-policy"
-                          target="_blank"
-                        >
-                          Privacy Policy
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
+                    <li className="nav-item dropdown menu_res">
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Company
+                      </a>
 
-                <li className="nav-item dropdown menu_res">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Contact Us
+                      <div className="dropdown-menu compyMenuResHight">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/about-us"
+                              target="_blank"
+                            >
+                              About Us
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/osiz-company-profile-brochure.pdf?v1"
+                              target="_blank"
+                            >
+                              Company Profile
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/osiz-pitchdeck.pdf?v1"
+                              target="_blank"
+                            >
+                              Pitch Deck
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/vision-mission"
+                              target="_blank"
+                            >
+                              Vision &amp; Mission
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/infrastructure"
+                              target="_blank"
+                            >
+                              Infrastructure
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/why-osiz"
+                              target="_blank"
+                            >
+                              Why Osiz
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/benefits"
+                              target="_blank"
+                            >
+                              Benefits
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/life-at-osiz"
+                              target="_blank"
+                            >
+                              Life@Osiz
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/quality-policy"
+                              target="_blank"
+                            >
+                              Quality Policy
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/events"
+                              target="_blank"
+                            >
+                              Events
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/celebrations"
+                              target="_blank"
+                            >
+                              Celeberations
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/business-model"
+                              target="_blank"
+                            >
+                              Business Model
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/our-digital-lab"
+                              target="_blank"
+                            >
+                              Our Lab
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/development-process"
+                              target="_blank"
+                            >
+                              Development Process
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/our-expertise"
+                              target="_blank"
+                            >
+                              Our Expertise
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              // href="https://www.osiztechnologies.com/terms-and-conditions"
+                              target="_blank"
+                            >
+                              Terms and Conditions
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              // href="https://www.osiztechnologies.com/payment-refund-policy"
+                              target="_blank"
+                            >
+                              Privacy Policy
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li className="nav-item dropdown menu_res">
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Contact Us
+                      </a>
+                      <div className="dropdown-menu compyMenuResHight">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/contact-us"
+                              target="_blank"
+                            >
+                              Contact Us
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.osiztechnologies.com/request-for-quotation"
+                              target="_blank"
+                            >
+                              Request For Quote
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
                   </a>
-                  <div className="dropdown-menu compyMenuResHight">
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/contact-us"
-                          target="_blank"
-                        >
-                          Contact Us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.osiztechnologies.com/request-for-quotation"
-                          target="_blank"
-                        >
-                          Request For Quote
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                 </li>
 
                 {/* ------------button talk to experts----------- */}
 
-                <li style={{ marginLeft: "150px", marginTop:"25px" }}>{<ContactForm/>}</li>
-                {/* <div className="HddrBtns banner_btn_sec">
-                  <button
-                    data-toggle="modal"
-                    data-target="#popup_form_modal"
-                    className="btn BtnPrimry TlkBtn"
-                  >
-                    <span>
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
-                        alt="enquiry"
-                        loading="eager"
-                        className="img-fluid lazyload mr-2"
-                      />
-                      Talk to our Experts
-                    </span>
-                    <span>
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
-                        alt="enquiry"
-                        loading="eager"
-                        className="img-fluid lazyload mr-2"
-                      />
-                      Talk to our Experts
-                    </span>
-                  </button>
-                </div> */}
+                <li style={{ marginLeft: "100px", marginTop: "25px" }}>
+                  {<ContactForm />}
+                </li>
               </ul>
+            </div>
+            <div className="Responsive-icon">
+              <ResponsiveDrawer />
             </div>
           </div>
         </nav>

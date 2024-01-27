@@ -1,9 +1,22 @@
-
+.HddrBg{
+  box-shadow: 2px 2px 5px 1px #9c9a9a93;
+}
       
       @media (max-width: 1400px) {
         .bnrVideoTop {
           margin-top: 50px;
         }
+      }
+
+      .Responsive-icon{
+        display: none !important;
+   }
+
+      @media all and (max-width:700px) {
+        .Responsive-icon{
+             display: block !important;
+        }
+        
       }
 
       .Main-section #homebanner .banner_btn_sec {
@@ -10552,7 +10565,7 @@ input[type=submit].btn-block {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center !important;
   -ms-flex-pack: justify;
   justify-content: space-between
 }
@@ -10659,7 +10672,8 @@ input[type=submit].btn-block {
       flex-direction: row
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
-      position: absolute
+      position: absolute;
+      /* display: block; */
   }
   .navbar-expand-sm .navbar-nav .nav-link {
       padding-right: .5rem;

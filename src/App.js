@@ -16,7 +16,6 @@ import Product from './Component/Insights/company/Announcement/Product';
 import News from './Component/Insights/company/Announcement/News';
 import Blog from './Component/blogs/Blog';
 import MainNews from './Component/Insights/company/News/MainNews';
-
 import AllRouteFiles from "./AllRouteFiles";
 import ContectUsForm from "./Component/Insights/ContectUsForm/ContectUsForm";
 
@@ -26,20 +25,7 @@ function App() {
 
     <div className="App">
         
-       <BrowserRouter>
-      
-      <Navbar/>
- 
-      <Routes>
-   
-       
-
-
-      </Routes>
-          
-       </BrowserRouter>
-
-        <AllRouteFiles />
+            <AllRouteFiles />
        <About />
         <Footer />
 

@@ -32,6 +32,12 @@ body {
 }
 
 
+.Enterprise-container{
+    background: black !important;
+}
+
+
+  
 
 
 @media (max-width:1000px) {
@@ -210,7 +216,7 @@ section h2 {
 
     .Enterprise-left-div p {
         font-size: 17px !important;
-        color: #2f2d2d;
+        color: #fff !important;
         line-height: 23px !important;
         font-family: 'Open Sans', sans-serif;
         margin: 10px 0 5px;
@@ -231,7 +237,7 @@ section h2 {
 
 .Enterprise-left-div h2 {
     font-weight: 700;
-    color: #282828;
+    color: #fff;
     text-transform: capitalize;
     font-size: 25px;
     letter-spacing: 0;
@@ -241,7 +247,7 @@ section h2 {
 
 .Enterprise-left-div p {
     font-size: 15px;
-    color: #2f2d2d;
+    color: #fff;
     line-height: 25px;
     font-family: 'Open Sans', sans-serif;
     margin: 10px 0 5px;
@@ -454,9 +460,16 @@ header.masthead {
     color: #fff
 }
 
+.header-content{
+    margin-top: -200px;
+}
+
 header.masthead .header-content {
     margin-bottom: 100px;
-    text-align: center
+    text-align: center;
+    
+    
+    
 }
 
 header.masthead .header-content h1 {
@@ -466,6 +479,7 @@ header.masthead .header-content h1 {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 20px !important;
+    margin-top: -300px !important;
     color: #fff
 }
 
@@ -1629,7 +1643,7 @@ footer .form-control {
 
 .section-heading h2 {
     font-weight: 700;
-    color: #282828 !important;
+    color: #ffffff !important;
     text-transform: capitalize;
     font-size: 25px;
     letter-spacing: 0;
@@ -1639,7 +1653,7 @@ footer .form-control {
 
 .section-heading h3 {
     font-weight: 700;
-    color: #282828;
+    color: #ffffff !important;
     text-transform: capitalize;
     font-size: 27px;
     letter-spacing: 0;
@@ -1649,7 +1663,7 @@ footer .form-control {
 
 .section-heading h4 {
     font-weight: 700;
-    color: #282828;
+    color: #ffffff !important;
     text-transform: capitalize;
     font-size: 28px;
     letter-spacing: 0;
@@ -1669,7 +1683,7 @@ footer .form-control {
 
 .section-heading p {
     font-size: 15px;
-    color: #2f2d2d;
+    color: #ffffff !important;
     line-height: 25px;
     font-family: 'Open Sans', sans-serif;
     margin: 10px 0 5px;
@@ -3274,6 +3288,12 @@ body .owl-carousel .owl-item img {
     max-width: 100%
 }
 
+.Process{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width:767px) {
     #accordion .panel-title a:after {
         content: "";
@@ -3318,7 +3338,7 @@ section.mid_section {
 }
 
 section.mid_section-1 {
-    background-color: #fff !important;
+    background-color: #000 !important;
     padding: 20px 0
 }
 
@@ -5729,6 +5749,7 @@ header.masthead-cloud-application-development {
     height: 85vh;
     background-position: center
 }
+
 
 .feature-content_1 h4,
 .feature-content_1 p,
@@ -8697,7 +8718,7 @@ header.ondemad_head .header-content h1 {
 
 .why-img-title {
     font-size: 18px;
-    color: #0f0f0f;
+    color: #fff !important;
     font-weight: 600;
     letter-spacing: 0;
     line-height: 23px;
@@ -24280,7 +24301,7 @@ position: absolute;
 .blockchain_crowd_main .why_osiz .title {
     font-size: 35px;
     font-weight: 800;
-    color: #000;
+    color: #000 ;
     text-align: center;
 }
 

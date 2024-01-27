@@ -1,6 +1,6 @@
 import React from "react";
 import "./main.css";
-import './Component/MetaversDevelopment/MetaverseDevelopment.css'
+import "./Component/MetaversDevelopment/MetaverseDevelopment.css";
 
 // import AboutWhoWeAre from "./AboutWhoWeAre";
 // import ReactSlick from "./ReactSlick";
@@ -12,9 +12,8 @@ import AboutForm from "./Component/MainPage/AboutForm";
 import AboutUsWhoWeAre from "./Component/MainPage/AboutUsWhoWeAre";
 // import SimilarFile from "./SimilarFile";
 const Main = () => {
-
   return (
-    <div style={{background:'black'}}>
+    <div style={{ background: "black" }}>
       <div className="Main-section MnuPaddTop">
         <section className="BnnrSecMain" id="homebanner">
           <div className="container-fluid pl-0 pr-0">
@@ -25,16 +24,24 @@ const Main = () => {
                   type="video/mp4"
                 />
               </video>
-              <div className="VidoCnt" >
+              <div className="VidoCnt">
                 <div>
-
                   <div className="BnrCnt bnrVideoTop">
-                    <h2 className="mb-lg-2 text">Game</h2><span className="typed-cursor">|</span>
-                    <h2><span className="TxtGrdnt" data-shine="Development">Development</span> <span className="Fw-600 ">Company</span></h2>
-                    <p>Leverage our customizable end-to-end blockchain services <br /> that are designed  to meet the unique needs of businesses.</p>
+                    <h2 className="mb-lg-2 text">Web & App</h2>
+                    <span className="typed-cursor">|</span>
+                    <h2>
+                      <span className="TxtGrdnt" data-shine="Development">
+                        Development
+                      </span>{" "}
+                      <span className="Fw-600 ">Company</span>
+                    </h2>
+                    <p>
+                      Enhance your business efficiency with our personalized
+                      end-to-end solutions,
+                      <br /> meticulously designed to cater to your specific
+                      needs.
+                    </p>
                   </div>
-
-
 
                   {/* <div className="HddrBtns banner_btn_sec">
                   <button
@@ -64,13 +71,16 @@ const Main = () => {
                 </div> */}
                   <div className="row justify-content-center">
                     <div className=" col-lg-12">
-                      <div >
-                        <p className="upper-heading" style={{ fontSize: 18, textTransform: "uppercase" }}>
+                      <div>
+                        <p
+                          className="upper-heading"
+                          style={{ fontSize: 18, textTransform: "uppercase" }}
+                        >
                           Be the pioneer of the digital world
                         </p>
                       </div>
-                      <div className="four-box row w-75 "  >
-                        <div className="col-lg-2 col-6" >
+                      <div className="four-box row w-75 ">
+                        <div className="col-lg-2 col-6">
                           <div className="vdoCntLst">
                             <p className="vdoCntLstCount">350+</p>
                             <p className="vdoCntLstTlt">Developers</p>
@@ -95,17 +105,13 @@ const Main = () => {
                           </div>
                         </div>
                       </div>
-
-
                     </div>
-
                   </div>
                 </div>
 
                 <div>
                   <AboutForm />
                 </div>
-
               </div>
               <div className="GrdentBg" />
             </div>
@@ -118,15 +124,16 @@ const Main = () => {
 
         <section className="MtaverseSec DapsMainBg TechStk">
           <div className="container container-1170">
-
             {/* <div class="OurSrvcHdd mb-lg-3">
 					<h6>Technology Stack</h6>
 				</div> */}
             <div className="BnrCnt OurservHdd mb-lg-4">
               <h2 className=" ">
-                Unleashing
-                <span className="Txt8282 px-2">Innovation With Our</span>Tech
-                Stack
+                Ignite
+                <span className="Txt8282 px-2">
+                  Innovation With the power of Our
+                </span>
+                Tech Stack
               </h2>
             </div>
             <div className="row">
@@ -503,12 +510,13 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Web</h3>
                           <p>
-                            Web tech stacks are the backbone of modern web3
-                            development, consisting of a set of technologies,
-                            tools, and frameworks. These stacks enable
-                            developers to build robust, scalable, and dynamic
-                            web applications that can run on a variety of
-                            platforms.
+                            Web tech stacks are like toolkits for building
+                            modern websites and applications. They include
+                            different technologies and tools that developers use
+                            to create websites that are strong, scalable, and
+                            can work well on various devices. It's like having a
+                            set of building blocks that make it easier to
+                            construct a robust and flexible website.
                           </p>
                         </div>
                       </div>
@@ -722,11 +730,7 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Mobile</h3>
                           <p>
-                            Mobile tech stacks a combination of software and
-                            programming languages used to develop mobile
-                            applications. A typical mobile tech stack includes
-                            both front-end and back-end development tools, as
-                            well as libraries, frameworks, and APIs.
+                          A mobile tech stack is a mix of software and programming languages that developers use to create mobile apps. It includes tools for building the visible parts of the app (front-end) and the behind-the-scenes functionality (back-end), along with additional resources like libraries and frameworks. It's like a toolbox that developers use to build and enhance mobile applications.
                           </p>
                         </div>
                       </div>
@@ -924,16 +928,7 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Desktop Apps</h3>
                           <p>
-                            Desktop apps are a popular technology stack used to
-                            create software applications that run on personal
-                            computers. Desktop apps include a user interface
-                            that allows users to interact with the software and
-                            perform various tasks. Desktop apps are leveraged as
-                            they provide high performance, security, and
-                            flexibility, making them a preferred choice for many
-                            businesses and individuals. With advancements in
-                            technology, desktop apps continue to evolve and
-                            provide innovative solutions for various industries.
+                          Desktop apps are like computer programs that you install on your personal computer. They come with a visual interface that lets you interact with the software and do different things. People like using desktop apps because they are fast, secure, and flexible. They're a popular choice for businesses and individuals because they offer high performance and can adapt to different needs. As technology gets better, desktop apps keep getting smarter and offering new solutions for different industries.
                           </p>
                         </div>
                       </div>
@@ -1035,13 +1030,10 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Blockchain</h3>
                           <p>
-                            Blockchain technology stacks are composed of various
-                            layers that work together to create a secure and
-                            decentralized system. At the foundation is the
-                            blockchain protocol, which handles maintaining the
-                            integrity of the system. On top of this, various
-                            consensus algorithms and smart contract languages
-                            are used to enable transactions and execute code.
+                          Blockchain technology stacks are like building blocks that come together to form a secure and decentralized system. At the core is the blockchain protocol, ensuring the system's integrity. On top of that, various methods and programming languages are used to enable transactions and execute code. It's a structured system where each layer plays a crucial role in making blockchain technology work securely and efficiently.
+
+
+
                             {/* Blockchain-based tech stacks help in providing a seamless experience for users interacting with the blockchain. */}
                           </p>
                         </div>
@@ -1128,11 +1120,13 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Blockchain Tools</h3>
                           <p>
-                            Blockchain tools are implemented due to the
-                            significance of providing secure and transparent
-                            data management. The primary use of blockchain tools
-                            is to provide a decentralized database that is
-                            tamper-proof, immutable, and resistant to hacking.
+                          Blockchain tools are used because they are essential for ensuring secure and transparent data management. These tools primarily create a decentralized database that cannot be tampered with, is unchangeable, and resistant to hacking. The main purpose is to maintain the integrity and security of data in a way that is trustworthy and resistant to unauthorized changes.
+
+
+
+
+
+
                             {/* This technology can be utilized for various purposes such as supply chain management, identity verification, and smart contract execution.  */}
                           </p>
                         </div>
@@ -1267,12 +1261,8 @@ const Main = () => {
                         <div className="TchStkCnt">
                           <h3 className="h3_title">Game</h3>
                           <p>
-                            The game tech stacks are used for the purpose of
-                            creating a robust platform, for database management,
-                            server-side scripting, frontend, and backend
-                            development. The tech stack ensures seamless
-                            performance, scalability, and stability, making it
-                            an ideal choice for platform development.
+                          Game tech stacks serve the purpose of building a strong foundation for various aspects of game development, including database management, server-side scripting, frontend, and backend development. These tech stacks are designed to ensure smooth performance, scalability, and stability, making them an ideal choice for creating a robust gaming platform. In simpler terms, they are like a toolkit that developers use to construct and maintain a gaming environment that runs smoothly and can handle the demands of players.
+
                           </p>
                         </div>
                       </div>
@@ -1287,8 +1277,8 @@ const Main = () => {
           <div className="container">
             <div className="BnrCnt OurservHdd mb-lg-4">
               <h2 className=" ">
-                Why Osiz<span className="Txt8282 px-2">is Your</span> Trusted
-                Blockchain{" "}
+                Why MetaBlock<span className="Txt8282 px-2">is Your</span> Trusted
+                {" "}
                 <span className="Txt8282 px-2">Development Partner?</span>
               </h2>
             </div>
@@ -1297,17 +1287,8 @@ const Main = () => {
                 <div className="col-lg-6 col-12" />
                 <div className="col-lg-6 col-12">
                   <p className="contents">
-                    Osiz Technologies, with its vast experience and expertise in
-                    blockchain development, emerges as a trusted partner in the
-                    industry. Leveraging cutting-edge technologies like
-                    Ethereum, Hyperledger, and Stellar we build secure and
-                    scalable blockchain applications that cater to diverse
-                    business requirements. Our customer-centric approach ensures
-                    effective communication and collaboration throughout the
-                    project lifecycle, ensuring transparency and timely delivery
-                    of projects. Osiz as your blockchain development partner
-                    delivers high-quality solutions that transform your business
-                    operations seamlessly into the decentralized future.
+                  MetaBlock Technologies, drawing upon extensive experience and proficiency in blockchain development, stands as a reliable industry partner. Harnessing the capabilities of cutting-edge technologies such as Ethereum, Hyperledger, and Stellar, we specialize in crafting secure and scalable blockchain applications tailored to diverse business needs. Our commitment to a customer-centric approach ensures open communication and collaboration throughout the project lifecycle, promoting transparency and timely project delivery. Choosing MetaBlock Technologies as your blockchain development partner guarantees high-quality solutions that seamlessly propel your business operations into the decentralized future.
+
                   </p>
                   <div className="HddrBtns mt-4">
                     <button
@@ -1341,7 +1322,7 @@ const Main = () => {
             </div>
           </div>
         </section>
-    
+
         {/* <section className="BnnerCntSec">
           <div className="container container-1170">
             <div className="row align-items-center">
